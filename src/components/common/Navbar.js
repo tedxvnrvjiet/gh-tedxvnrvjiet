@@ -52,8 +52,8 @@ function Navbar() {
                       alt="TEDx VNRVJIET"
                     />
                   </div>
-                  <div className="hidden sm:ml-6 sm:block">
-                    <div className="flex space-x-4">
+                  <div className=" hidden sm:ml-6 sm:block">
+                    <div className="absolute right-0 flex space-x-4">
                       {navigation.map((item) => (
                         <a
                           key={item.name}
@@ -74,7 +74,7 @@ function Navbar() {
             </div>
 
             <Disclosure.Panel className="sm:hidden">
-              <div className="space-y-1 px-2 pt-2 pb-3">
+              <div className=" space-y-1 px-2 pt-2 pb-3">
                 {navigation.map((item) => (
                   <Disclosure.Button
                     key={item.name}
