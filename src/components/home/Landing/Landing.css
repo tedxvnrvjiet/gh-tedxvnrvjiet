@@ -20,95 +20,74 @@
     margin-bottom: 5px;
     color: red;
 }
+.tedx {
+    color: white;
+}
 @-moz-keyframes scroll {
     0% {
         transform: translateY(0px);
     }
-    26.666666666666668% {
-        transform: translateY(0px);
-    }
-    33.333333333333336% {
+    25% {
         transform: translateY(-105px);
     }
-    60.00000000000001% {
-        transform: translateY(-105px);
-    }
-    66.66666666666667% {
+    50% {
         transform: translateY(-210px);
     }
-    93.33333333333333% {
-        transform: translateY(-210);
+    75% {
+        transform: translateY(-315px);
     }
     100% {
-        transform: translateY(-315px);
+        transform: translateY(-420px);
     }
 }
 @-webkit-keyframes scroll {
     0% {
         transform: translateY(0px);
     }
-    26.666666666666668% {
-        transform: translateY(0px);
-    }
-    33.333333333333336% {
+    25% {
         transform: translateY(-105px);
     }
-    60.00000000000001% {
-        transform: translateY(-105px);
-    }
-    66.66666666666667% {
+    50% {
         transform: translateY(-210px);
     }
-    93.33333333333333% {
-        transform: translateY(-210px);
+    75% {
+        transform: translateY(-315px);
     }
     100% {
-        transform: translateY(-315px);
+        transform: translateY(-420px);
     }
 }
 @-o-keyframes scroll {
     0% {
         transform: translateY(0px);
     }
-    26.666666666666668% {
-        transform: translateY(0px);
-    }
-    33.333333333333336% {
+    25% {
         transform: translateY(-105px);
     }
-    60.00000000000001% {
-        transform: translateY(-105px);
-    }
-    66.66666666666667% {
+    50% {
         transform: translateY(-210px);
     }
-    93.33333333333333% {
-        transform: translateY(-210px);
+    75% {
+        transform: translateY(-315px);
     }
     100% {
-        transform: translateY(-315px);
+        transform: translateY(-420px);
     }
 }
 @keyframes scroll {
     0% {
         transform: translateY(0px);
     }
-    26.666666666666668% {
-        transform: translateY(0px);
-    }
-    33.333333333333336% {
+    25% {
         transform: translateY(-105px);
     }
-    60.00000000000001% {
-        transform: translateY(-105px);
-    }
-    66.66666666666667% {
+    50% {
         transform: translateY(-210px);
     }
-    93.33333333333333% {
-        transform: translateY(-210px);
+    75% {
+        transform: translateY(-315px);
     }
     100% {
-        transform: translateY(-315px);
+        transform: translateY(-420px);
     }
 }

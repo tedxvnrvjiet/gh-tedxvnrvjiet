@@ -9,6 +9,7 @@ function Landing() {
                     <div className="scrolling">IDEAS</div>
                     <div className="scrolling">WORTH</div>
                     <div className="scrolling">SPREADING</div>
+                    <div className="scrolling tedx">TEDx</div>
                     <div className="scrolling">IDEAS</div>
                 </div>
             </div>
