@@ -1,7 +1,7 @@
 import React from 'react'
 import Previousthemes from './Previousthemes'
 
-function pasteditions() {
+function Pasteditions() {
   return (
     <div  style={{backgroundColor:'black'}}>
         <div className='pt-8'>
@@ -13,4 +13,4 @@ function pasteditions() {
   )
 }
 
-export default pasteditions
+export default Pasteditions
