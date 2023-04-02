@@ -1,6 +1,5 @@
 import React from 'react'
 import Previousthemes from './Previousthemes'
-
 function Pasteditions() {
   return (
     <div  style={{backgroundColor:'black'}}>
