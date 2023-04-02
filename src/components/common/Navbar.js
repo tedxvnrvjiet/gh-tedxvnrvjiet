@@ -6,7 +6,7 @@ import About from '../about/About'
 import Team from '../team/Team'
 import Sponsors from '../sponsors/Sponsors'
 import ContactUs from '../contactUs/ContactUs'
-import Pasteditions from '../pasteditions/Pasteditions'
+import Archives from '../pasteditions/Archives'
 import { Route, Routes} from 'react-router-dom'
 import logo from '../../assets/logos/logo-white.png'
 
@@ -101,7 +101,7 @@ function Navbar() {
             <Route path='/' element={<Home />} />
             <Route path='/about' element={<About />} />
             <Route path='/team' element={<Team />} />
-            <Route path='/past-editions' element={<Pasteditions />} />
+            <Route path='/past-editions' element={<Archives />} />
             <Route path='/sponsors' element={<Sponsors />} />
             <Route path='/contact-us' element={<ContactUs />} />
         </Routes>
