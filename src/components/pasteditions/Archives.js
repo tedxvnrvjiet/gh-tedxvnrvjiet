@@ -1,7 +1,7 @@
 import React from 'react'
 import Previousthemes from './Previousthemes'
 
-function Archives() {
+function Pasteditions() {
   return (
     <div  style={{backgroundColor:'black'}}>
         <div className='pt-8'>
@@ -13,4 +13,4 @@ function Archives() {
   )
 }
 
-export default Archives
+export default Pasteditions
