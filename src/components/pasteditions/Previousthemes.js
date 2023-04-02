@@ -4,7 +4,6 @@ import Carousel from './Carousel'
 function Previousthemes() {
     
     const [year,setYear]=useState(2018)
-    const [video,setVideo]=useState(0);
 
   return (
     <div style={{position:"relative",zIndex:"6"}}>
@@ -22,9 +21,6 @@ function Previousthemes() {
             </div>
             <div className='col-span-3'>
                     <Content props={year}/>
-                    {/* <iframe id="vid_frame"
-                    src="https://www.youtube.com/embed/ADBhj5oSM5c?enablejsapi=1&rel=0&showinfo=0&autohide=1"
-                    frameborder="0" width="560" height="315"></iframe> */}
                     <Carousel props={year}/>
             </div>
         </div>
