@@ -20,9 +20,6 @@
     margin-bottom: 5px;
     color: red;
 }
-.tedx {
-    color: white;
-}
 @-moz-keyframes scroll {
     0% {
         transform: translateY(0px);
@@ -90,4 +87,34 @@
     100% {
         transform: translateY(-420px);
     }
+}
+
+:root {
+    --light: #FF9999;
+    --medium: #FF6666;
+    --dark: rgb(255,0,0);
+}
+
+
+@keyframes background-pan{
+from{
+    background-position: 0 center;
+}
+to{
+    background-position: -200% center;
+}
+}
+
+.magic-text{
+    animation: background-pan 1s linear infinite;
+    background: linear-gradient(
+        to right,
+        var(--light),
+        var(--medium),
+        var(--dark),
+        var(--light)
+    );
+    background-size: 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
