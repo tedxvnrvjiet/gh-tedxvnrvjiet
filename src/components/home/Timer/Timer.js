@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import Countdown from 'react-countdown';
 import styled from "styled-components";
 
@@ -29,7 +29,7 @@ const Timer = () => {
     color: #EB0028;
     `;
 
-    const [time, setTime] = useState(new Date('2023-05-02'));
+    const [time] = useState(new Date('2023-05-02'));
 
     const renderer = ({ days, hours, minutes, seconds, completed }) => {
         if (completed) {
