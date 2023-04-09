@@ -21,7 +21,6 @@ export default function SpeakerDetails(props) {
 
     const openModal = () => setIsOpen(true);
     const closeModal = () => setIsOpen(false);
-
     const handleHover = () => setIsHovered(true);
     const handleLeave = () => setIsHovered(false);
 
@@ -46,9 +45,13 @@ export default function SpeakerDetails(props) {
                     <div className="font-bold text-2xl inline mr-2">
                         { props.name }
                     </div>
+                    <div className="text-xl inline mr-2 align-text-center">
+                        - { props.designation }
+                    </div>
                     { props?.linkedin && <a className="rounded bg-white m-1 align-text-bottom" href={props.linkedin}><LinkedInLogo /></a>}
                     { props?.instagram && <a className="rounded bg-white m-1 align-text-bottom" href={props.instagram}><InstagramLogo /></a>}
                 </div>
+                <br />
                 <p>{props.description}</p>
             </Modal>
         </div>

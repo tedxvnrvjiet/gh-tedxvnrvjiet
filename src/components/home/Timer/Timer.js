@@ -21,12 +21,12 @@ const Timer = () => {
     const Number = styled.div`
     font-size: 50px;
     font-weight: bold;
-    color: #EB0028;
+    color: white;
     `;
 
     const Label = styled.div`
     font-size: 20px;
-    color: #EB0028;
+    color: white;
     `;
 
     const [time] = useState(new Date('2023-05-02'));
@@ -37,27 +37,29 @@ const Timer = () => {
         } 
         else {
             return (
-                <CountdownWrapper>
-                    <TimerBox>
-                        <Number>{days}</Number>
-                        <Label>Days</Label>
-                    </TimerBox>
-                    <TimerBox>
-                        <Number>{hours}</Number>
-                        <Label>Hours</Label>
-                    </TimerBox>
-                    <TimerBox>
-                        <Number>{minutes}</Number>
-                        <Label>Minutes</Label>
-                    </TimerBox>
-                    <TimerBox>
-                        <Number>{seconds}</Number>
-                        <Label>Seconds</Label>
-                    </TimerBox>
-                </CountdownWrapper>
-                // <div>
-                //     <span>{days}</span>:<span>{hours}</span>:<span>{minutes}</span>:<span>{seconds}</span>
-                // </div>
+                <div className='bg-black pb-10'>
+                    <h1 className="text-center text-5xl text-red-600 font-bold mb-10">
+                        The Countdown Begins for a Day of Innovation and Inspiration!
+                    </h1>
+                    <CountdownWrapper className='mb-20'>
+                        <TimerBox>
+                            <Number>{days}</Number>
+                            <Label>Days</Label>
+                        </TimerBox>
+                        <TimerBox>
+                            <Number>{hours}</Number>
+                            <Label>Hours</Label>
+                        </TimerBox>
+                        <TimerBox>
+                            <Number>{minutes}</Number>
+                            <Label>Minutes</Label>
+                        </TimerBox>
+                        <TimerBox>
+                            <Number>{seconds}</Number>
+                            <Label>Seconds</Label>
+                        </TimerBox>
+                    </CountdownWrapper>
+                </div>
             );
         }
     };
