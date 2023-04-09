@@ -5,13 +5,15 @@ import InstagramLogo from "../../../assets/logos/InstagramLogo";
 
 const customStyles = {
     content: {
-      top: '50%',
-      left: '50%',
-      bottom: 'auto',
-      marginRight: '-40%',
-      transform: 'translate(-50%, -50%)',
+        top: '50%',
+        left: '50%',
+        bottom: 'auto',
+        marginRight: '-40%',
+        transform: 'translate(-50%, -50%)',
+        backgroundColor: 'black',
+        color: 'white'
     },
-  };
+};
 
 export default function SpeakerDetails(props) {
     const [isHovered, setIsHovered] = useState(false);
@@ -44,8 +46,8 @@ export default function SpeakerDetails(props) {
                     <div className="font-bold text-2xl inline mr-2">
                         { props.name }
                     </div>
-                    { props?.linkedin && <a className="p-1 align-text-bottom" href={props.linkedin}><LinkedInLogo /></a>}
-                    { props?.instagram && <a className="p-1 align-text-bottom" href={props.instagram}><InstagramLogo /></a>}
+                    { props?.linkedin && <a className="rounded bg-white m-1 align-text-bottom" href={props.linkedin}><LinkedInLogo /></a>}
+                    { props?.instagram && <a className="rounded bg-white m-1 align-text-bottom" href={props.instagram}><InstagramLogo /></a>}
                 </div>
                 <p>{props.description}</p>
             </Modal>
