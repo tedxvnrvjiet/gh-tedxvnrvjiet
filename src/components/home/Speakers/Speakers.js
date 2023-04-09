@@ -32,7 +32,7 @@ const SpeakersInfo = [
 function Speakers() {
     return (
         <div className="bg-black">
-            <h1 className='pl-4 text-5xl text-white'>Our speakers</h1>
+            <h1 className='pl-4 text-5xl text-red-600 font-bold'>Our speakers for 2023</h1>
             <div className="flex flex-wrap justify-center p-4">
                 {
                     SpeakersInfo.map((item)=>
