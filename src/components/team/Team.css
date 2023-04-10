@@ -6,13 +6,14 @@
     text-align: center;
     overflow: hidden;
     position: relative;
+    border-radius: 30px;
   }
   
   .our-team .picture {
     display: inline-block;
     height: 180px;
     width: 180px;
-    margin-bottom: 25px;
+    margin-top: 25px;
     z-index: 1;
     position: relative;
   }
