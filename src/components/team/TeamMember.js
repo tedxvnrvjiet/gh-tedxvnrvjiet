@@ -10,12 +10,12 @@ function TeamMember(props) {
       <img class="img-fluid" src={props.ar.url}/>
     </div>
     <div class="team-content">
-      <h3 class="name">{props.ar.name}</h3>
+      <h3 class="title">{props.ar.name}</h3>
       <h4 class="title">{props.ar.post}</h4>
     </div>
     <ul class="social">
-      <li><a href="https://codepen.io/collection/XdWJOQ/" aria-hidden="true"><FaLinkedin/></a></li>
-      <li><a href="https://codepen.io/collection/XdWJOQ/" aria-hidden="true"><FaLinkedin/></a></li>
+      <li><a href="https://codepen.io/collection/XdWJOQ/" aria-hidden="true"><FaLinkedin className='icon' /></a></li>
+      <li><a href="https://codepen.io/collection/XdWJOQ/" aria-hidden="true"><FaLinkedin className='icon'/></a></li>
     </ul>
   </div>
   )

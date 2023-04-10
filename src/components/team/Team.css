@@ -2,7 +2,7 @@
     margin-bottom: 30px;
     height: 300px;
     width: 250px;
-    background-color: #f7f5ec;
+    background-color: black;
     text-align: center;
     overflow: hidden;
     position: relative;
@@ -10,8 +10,8 @@
   
   .our-team .picture {
     display: inline-block;
-    height: 130px;
-    width: 130px;
+    height: 180px;
+    width: 180px;
     margin-bottom: 50px;
     z-index: 1;
     position: relative;
@@ -22,7 +22,7 @@
     width: 100%;
     height: 0;
     border-radius: 50%;
-    background-color: #081524;
+    background-color:gray;
     position: absolute;
     bottom: 135%;
     right: 0;
@@ -41,7 +41,7 @@
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    background-color: #07101a;
+    background-color: black;
     position: absolute;
     top: 0;
     left: 0;
@@ -57,14 +57,14 @@
   }
   
   .our-team:hover .picture img {
-    box-shadow: 0 0 0 14px #f7efec;
+    box-shadow: 0 0 0 14px black;
     transform: scale(0.7);
   }
   
   .our-team .title {
     display: block;
     font-size: 15px;
-    color: #4e5052;
+    color: whitesmoke;
     text-transform: capitalize;
   }
   
@@ -72,7 +72,7 @@
     width: 100%;
     padding: 0;
     margin: 0;
-    background-color: #070d15;
+    background-color: gray;
     position: absolute;
     bottom: -100px;
     left: 0;
@@ -91,13 +91,22 @@
     display: block;
     padding: 10px;
     font-size: 17px;
-    color: white;
+    color:black;
     transition: all 0.3s ease 0s;
     text-decoration: none;
   }
   
   .our-team .social li a:hover {
     color: #0f1e30;
-    background-color: #f7f5ec;
+    background-color:gray;
   }
   
+  .icon{
+    color:black;
+  }
+  /* a:hover .icon{
+    transition-delay: 0ms;
+    transition: ease-in-out;
+    transition-duration: 300ms;
+
+  } */
