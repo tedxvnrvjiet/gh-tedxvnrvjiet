@@ -95,7 +95,7 @@ function Navbar() {
         )}
       </Disclosure>
       <Routes>
-            <Route path='/' element={<Home />} />
+            {/* <Route path='/' element={<Home />} /> */}
             <Route path='/about' element={<About />} />
             <Route path='/team' element={<Team />} />
             <Route path='/sponsors' element={<Sponsors />} />
