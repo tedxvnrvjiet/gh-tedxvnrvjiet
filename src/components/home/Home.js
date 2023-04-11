@@ -7,7 +7,7 @@ import Speakers from './Speakers/Speakers'
 
 function Home() {
   return (
-    <div>
+    <div className='bg-black p-10'>
       <Landing />
       <Timer />
       <TEDx />
