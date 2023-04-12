@@ -59,15 +59,15 @@ const SpeakersInfo = [
 
 function Speakers() {
     return (
-        <div className="bg-black px-20">
+        <div className="bg-black pt-10 pb-10">
             <h1 className='text-center text-5xl text-red-600 font-bold'>Our speakers for 2023</h1>
-            <div className="flex flex-wrap justify-center p-4">
-                {
-                    SpeakersInfo.map((item)=>
-                        <SpeakerDetails key={item.image} name={item.name} designation={item.designation} image={item.image} description={item.description} instagram={item?.instagram} linkedin={item?.linkedin} facebook={item?.facebook} />
-                    )
-                }
-            </div>
+                <div className="flex flex-wrap justify-center p-4 px-20">
+                    {
+                        SpeakersInfo.map((item)=>
+                            <SpeakerDetails key={item.image} name={item.name} designation={item.designation} image={item.image} description={item.description} instagram={item?.instagram} linkedin={item?.linkedin} facebook={item?.facebook} />
+                        )
+                    }
+                </div>
         </div>
     )
 }

@@ -7,7 +7,7 @@ const Timer = () => {
     const CountdownWrapper = styled.div`
     display: flex;
     justify-content: center;
-    background-color: black;
+    background-color: white;
     `;
 
     const TimerBox = styled.div`
@@ -21,12 +21,12 @@ const Timer = () => {
     const Number = styled.div`
     font-size: 50px;
     font-weight: bold;
-    color: white;
+    color: black;
     `;
 
     const Label = styled.div`
     font-size: 20px;
-    color: white;
+    color: black;
     `;
 
     const [time] = useState(new Date('2023-05-02'));
@@ -37,7 +37,7 @@ const Timer = () => {
         } 
         else {
             return (
-                <div className='bg-black pb-10'>
+                <div className='bg-white pb-1 pt-10'>
                     <h1 className="text-center text-5xl text-red-600 font-bold mb-10">
                         The Countdown Begins for a Day of Innovation and Inspiration!
                     </h1>

@@ -4,6 +4,7 @@ import LinkedInLogo from "../../../assets/logos/LinkedInLogo";
 import InstagramLogo from "../../../assets/logos/InstagramLogo";
 import FacebookLogo from "../../../assets/logos/FacebookLogo";
 import ClickIcon from "../../../assets/logos/ClickIcon";
+import ButterfliesDark from '../../../assets/ButterfliesDark.png';
 
 const customStyles = {
     content: {
@@ -12,7 +13,9 @@ const customStyles = {
         bottom: 'auto',
         marginRight: '-40%',
         transform: 'translate(-50%, -50%)',
-        backgroundColor: 'black',
+        backgroundImage: `url(${ButterfliesDark})`,
+        backgroundRepeat: 'repeat',
+        backgroundSize: 'cover',
         color: 'white'
     },
 };
@@ -27,7 +30,7 @@ export default function SpeakerDetails(props) {
     const handleLeave = () => setIsHovered(false);
 
     return (
-        <div className="m-4 pb-10">
+        <div className="m-4 pb-10 h-60">
             <button
                 className="hidden lg:block rounded-full hover:-translate-y-5 duration-300 text-gray-800 font-semibold border border-red-600 border-4 rounded shadow"
                 onMouseEnter={handleHover}
