@@ -7,7 +7,7 @@ import { useMediaQuery } from "react-responsive";
 function Nav() {
     //usestate hook to know whether the device is mobile or a laptop
     const [isMobile, setIsMobile] = React.useState(false);
-    const isTabletOrMobile = useMediaQuery({ query: "(max-width: 1224px)" });
+    const isTabletOrMobile = useMediaQuery({ query: "(max-width: 1024px)" });
     const [show, setShow] = React.useState(false);
 
     React.useEffect(() => {
