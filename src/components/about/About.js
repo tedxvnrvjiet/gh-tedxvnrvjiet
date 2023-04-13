@@ -1,6 +1,6 @@
 import React from 'react'
 
-function about() {
+function About() {
   return (
     <div>
       <p className='mx-16 my-8 font-sans font-bold text-4xl'>About <a className='text-red-600'>TED</a></p>
@@ -45,4 +45,4 @@ and enthralling event.
   )
 }
 
-export default about
+export default About
