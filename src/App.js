@@ -10,6 +10,7 @@ import Team from './components/team/Team'
 import Sponsors from './components/sponsors/Sponsors'
 import ContactUs from './components/contactUs/ContactUs.js'
 import Home from './components/home/Home';
+import ParticlesBackground from './components/ParticlesBackground';
 
 function App() {
 
@@ -21,10 +22,10 @@ function App() {
 
   return (
     <> { loading ? <Loading /> :
-      <div style={{ position: "relative" }}>
-      <div style={{zIndex:"1"}}>
-      <ParticlesBackground/>
-      </div>
+      // <div style={{ position: "relative" }}>
+      // <div style={{zIndex:"1"}}>
+      // <ParticlesBackground/>
+      // </div>
       <div>
         {/* <Navbar/> */}
         <Nav />
@@ -37,7 +38,7 @@ function App() {
         </Routes>
         <Footer />
         </div>
-    </div>
+    // </div>
 
     }
     
