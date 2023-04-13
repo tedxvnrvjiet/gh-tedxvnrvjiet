@@ -68,6 +68,7 @@ function Speakers() {
                         )
                     }
                 </div>
+            <hr className="border-1 border-gray-600 mx-40"/>
         </div>
     )
 }
