@@ -68,12 +68,12 @@ function Nav() {
                             <a href="/about" className="link">
                                 About
                             </a>
-                            <a href="/team" className="link">
-                                Team
-                            </a>
                             <a href="/past-editions" className="link">
                                 Past Editions
                                 </a>
+                            <a href="/team" className="link">
+                                Team
+                            </a>
                             <a href="/sponsors" className="link">
                                 Sponsors
                             </a>

@@ -25,7 +25,6 @@ function App() {
     <> { loading ? <Loading /> :
       // <div style={{ position: "relative" }}>
       // <div style={{zIndex:"1"}}>
-      // <ParticlesBackground/>
       // </div>
       <div>
         {/* <Navbar/> */}
