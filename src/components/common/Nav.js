@@ -3,15 +3,6 @@ import "./Nav.css";
 // import vnr from "../../Assets/vnr.png";
 import logo from "../../assets/logos/logo-white.png";
 import { useMediaQuery } from "react-responsive";
-import Dropdown from "react-bootstrap/Dropdown";
-import { BsFillArrowDownCircleFill } from "react-icons/bs";
-import DropdownButton from "react-bootstrap/DropdownButton";
-import { Route, Routes } from "react-router-dom";
-import Home from '../home/Home'
-import About from '../about/About'
-import Team from '../team/Team'
-import Sponsors from '../sponsors/Sponsors'
-import ContactUs from '../contactUs/ContactUs'
 
 function Nav() {
     //usestate hook to know whether the device is mobile or a laptop
@@ -56,6 +47,9 @@ function Nav() {
                                 <a href="/about-us" className="linkk">
                                     <div className="menu-link">About</div>
                                 </a>
+                                <a href="/past-editions" className="linkk">
+                                    <div className="menu-link">Past Editions</div>
+                                </a>
                                 <a href="/model-s" className="linkk">
                                     <div className="menu-link">Team</div>
                                 </a>
@@ -77,6 +71,9 @@ function Nav() {
                             <a href="/team" className="link">
                                 Team
                             </a>
+                            <a href="/past-editions" className="link">
+                                Past Editions
+                                </a>
                             <a href="/sponsors" className="link">
                                 Sponsors
                             </a>

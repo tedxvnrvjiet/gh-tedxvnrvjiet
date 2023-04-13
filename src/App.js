@@ -11,14 +11,15 @@ import Sponsors from './components/sponsors/Sponsors'
 import ContactUs from './components/contactUs/ContactUs.js'
 import Home from './components/home/Home';
 import ParticlesBackground from './components/ParticlesBackground';
+import Archives from './components/pasteditions/Archives'
 
 function App() {
 
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(false);
 
-  setTimeout(() => {
-    setLoading(false);
-  }, 4000);
+  // setTimeout(() => {
+  //   setLoading(false);
+  // }, 4000);
 
   return (
     <> { loading ? <Loading /> :
@@ -32,6 +33,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/about' element={<About />} />
+          <Route path='/past-editions' element={<Archives />} />
           <Route path='/team' element={<Team />} />
           <Route path='/sponsors' element={<Sponsors />} />
           <Route path='/contact-us' element={<ContactUs />} />
