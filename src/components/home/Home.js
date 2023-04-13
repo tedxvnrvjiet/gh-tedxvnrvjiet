@@ -1,8 +1,10 @@
 import React from 'react'
+import home from '../../assets/home.mp4'
 
 function Home() {
   return (
-    <div>Home</div>
+    <div>
+    </div>
   )
 }
 

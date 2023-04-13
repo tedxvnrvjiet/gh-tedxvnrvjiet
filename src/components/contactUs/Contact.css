@@ -1,0 +1,181 @@
+.contact_us {
+    background-color: #1c1c1c;
+    width: 100%;
+    height: fit-content;
+    padding-bottom: 100px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contact_title {
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+    color: #e03a3c;
+    padding-top: 100px;
+    padding-bottom: 30px;
+    position: relative;
+    text-align: center;
+}
+
+.contact_title h2::after {
+    background: #e03a3c;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 3px;
+    left: calc(50% - 25px);
+    position: absolute;
+    width: 50px;
+}
+
+.contact_info {
+    text-align: center;
+    padding-top: 50px;
+    padding: 20px 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.info_container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding: 30px;
+}
+
+.address {
+    border-radius: 4px;
+    /* border: 3px solid #e03a3c; */
+    /* width: 300px; */
+    max-width: 100%;
+    box-shadow: 0 0 30px hsla(240,0%,46%,.29);
+    color: #444;
+    color: #fff;
+    padding: 30px 32px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.ji {
+    border: 2px dotted #f8d4d5;
+    padding: 5px;
+    border-radius: 50%;
+    /* padding: 20px; */
+}
+
+.address h3, .email h3, .call h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #fff;
+
+}
+
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    /* min-width: 100px; */
+    width: 100%;
+    justify-content: space-between;
+}
+
+.email, .call {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    border-radius: 4px;
+    box-shadow: 0 0 30px hsla(240,0%,46%,.29);
+    gap: 10px;
+    justify-content: center;
+}
+
+.email, .call {
+    width: 40%;
+    min-width: 300px;
+    margin-top: 40px;
+    transition: 0.5s;
+}
+
+.email:hover {
+    background-color: #e03a3c;
+    transition: 0.5s;
+}
+
+.email:hover + .ji {
+    color: white;
+    transition: 0.5s;
+}
+
+.contact_para {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input__row {
+    display: flex;
+    /* flex-wrap: wrap; */
+    gap: 10px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.input_row {
+    
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.container_left {
+    flex: 3;
+}
+
+.container_right {
+    border-radius: 4px;
+    flex: 3;
+    /* border: 3px solid #e03a3c; */
+    /* width: 300px; */
+    padding: 30px;
+    box-shadow: 0 0 30px hsla(240,0%,46%,.29);
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    outline: none;
+    color: black;
+    transition: 0.5s all ease;
+}
+
+input:focus, textarea:focus {
+    box-shadow: 0 0 30px hsla(0, 93%, 67%, 0.723);
+    transition: .5s all ease;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+input[type="submit"] {
+    background-color: #e03a3c;
+    color: white;
+    border: none;
+    width: 170px;
+    margin: auto;
+    text-transform: capitalize;
+
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.5s all ease;
+}

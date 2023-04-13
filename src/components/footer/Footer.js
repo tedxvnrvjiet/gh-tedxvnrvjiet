@@ -7,7 +7,7 @@ import {HiOutlineMail} from 'react-icons/hi'
 
 function Footer() {
   return (
-    <div>
+    <footer>
         <div className="footer">
             <div className="footer_logo">
                 <img className='logo' src={logo} alt="TedXVNRVJIET Logo" />
@@ -33,7 +33,7 @@ function Footer() {
                   <span className='gray'> © 2023 </span><span className='red'>TED<sup>x</sup></span> VNRVJIET <span className="gray">. All Rights Reserved. This independent TED<sup>X</sup> Event is operated under license from TED</span>
               </div>
         </div>
-    </div>
+    </footer>
   )
 }
 

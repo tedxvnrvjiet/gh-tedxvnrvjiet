@@ -16,7 +16,7 @@
     align-items: center;
     font-family: 'Poppins', sans-serif;
     gap: 40px;
-    position: absolute;
+    position: relative;
     bottom: 0;
 }
 
@@ -28,7 +28,8 @@
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
-    width: 30%;
+    flex-wrap: wrap;
+    width: 50%;
     padding: 0 20px;
 }
 
@@ -37,6 +38,16 @@
     justify-content: space-between;
     width: 10%;
     /* padding: 0 20px; */
+}
+
+@media screen and (max-width: 768px) {
+    .footer_links {
+        width: 100%;
+        gap: 20px;
+    }
+    .footer_social {
+        width: 50%;
+    }
 }
 
 .red {
