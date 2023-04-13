@@ -1,6 +1,7 @@
 import React,{useState} from 'react'
 import Content from './Content'
 import Carousel from './Carousel'
+import Pastspeakers from './Pastspeakers'
 function Previousthemes() {
     
     const [year,setYear]=useState(2018)
@@ -21,7 +22,8 @@ function Previousthemes() {
             </div>
             <div className='col-span-3'>
                     <Content props={year}/>
-                    <Carousel props={year}/>
+                    {/* <Carousel props={year}/> */}
+                    <Pastspeakers props={year}/>
             </div>
         </div>
     </div>
