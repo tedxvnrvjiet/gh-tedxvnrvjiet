@@ -1,0 +1,120 @@
+.scroller{
+    background-color: black;
+    height: 92vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 100px;
+}
+.scroll-window {
+    height: 100px;
+    overflow-y: hidden;
+}
+.scroll-container {
+    animation: scroll infinite ease-in-out;
+    animation-duration: 3s;
+}
+.scrolling {
+    line-height: 100px;   
+    margin-bottom: 5px;
+    color: red;
+}
+@-moz-keyframes scroll {
+    0% {
+        transform: translateY(0px);
+    }
+    25% {
+        transform: translateY(-105px);
+    }
+    50% {
+        transform: translateY(-210px);
+    }
+    75% {
+        transform: translateY(-315px);
+    }
+    100% {
+        transform: translateY(-420px);
+    }
+}
+@-webkit-keyframes scroll {
+    0% {
+        transform: translateY(0px);
+    }
+    25% {
+        transform: translateY(-105px);
+    }
+    50% {
+        transform: translateY(-210px);
+    }
+    75% {
+        transform: translateY(-315px);
+    }
+    100% {
+        transform: translateY(-420px);
+    }
+}
+@-o-keyframes scroll {
+    0% {
+        transform: translateY(0px);
+    }
+    25% {
+        transform: translateY(-105px);
+    }
+    50% {
+        transform: translateY(-210px);
+    }
+    75% {
+        transform: translateY(-315px);
+    }
+    100% {
+        transform: translateY(-420px);
+    }
+}
+@keyframes scroll {
+    0% {
+        transform: translateY(0px);
+    }
+    25% {
+        transform: translateY(-105px);
+    }
+    50% {
+        transform: translateY(-210px);
+    }
+    75% {
+        transform: translateY(-315px);
+    }
+    100% {
+        transform: translateY(-420px);
+    }
+}
+
+:root {
+    --light: #FF9999;
+    --medium: #EB6666;
+    --dark: #EB0028;
+}
+
+
+@keyframes background-pan{
+from{
+    background-position: 0 center;
+}
+to{
+    background-position: -200% center;
+}
+}
+
+.magic-text{
+    animation: background-pan 1s linear infinite;
+    background: linear-gradient(
+        to right,
+        var(--light),
+        var(--medium),
+        var(--dark),
+        var(--light)
+    );
+    background-size: 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

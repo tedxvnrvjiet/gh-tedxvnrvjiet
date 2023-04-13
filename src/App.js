@@ -22,7 +22,11 @@ function App() {
   return (
     <> { loading ? <Loading /> :
       <div style={{ position: "relative" }}>
-        {/* <Navbar /> */}
+      <div style={{zIndex:"1"}}>
+      <ParticlesBackground/>
+      </div>
+      <div>
+        {/* <Navbar/> */}
         <Nav />
         <Routes>
           <Route path='/' element={<Home />} />
@@ -32,7 +36,8 @@ function App() {
           <Route path='/contact-us' element={<ContactUs />} />
         </Routes>
         <Footer />
-      </div>
+        </div>
+    </div>
 
     }
     
