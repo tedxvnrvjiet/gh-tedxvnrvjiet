@@ -97,13 +97,13 @@
 }
 
 .email, .call {
-    width: 40%;
-    min-width: 300px;
+    width: 35%;
+    min-width: 270px;
     margin-top: 40px;
     transition: 0.5s;
 }
 
-.email:hover {
+/* .email:hover {
     background-color: #e03a3c;
     transition: 0.5s;
 }
@@ -111,7 +111,7 @@
 .email:hover + .ji {
     color: white;
     transition: 0.5s;
-}
+} */
 
 .contact_para {
     display: flex;

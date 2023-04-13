@@ -11,6 +11,7 @@ import Sponsors from './components/sponsors/Sponsors'
 import ContactUs from './components/contactUs/ContactUs.js'
 import Home from './components/home/Home';
 import ParticlesBackground from './components/ParticlesBackground';
+import Archives from './components/pasteditions/Archives'
 
 function App() {
 
@@ -32,6 +33,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/about' element={<About />} />
+          <Route path='/past-editions' element={<Archives />} />
           <Route path='/team' element={<Team />} />
           <Route path='/sponsors' element={<Sponsors />} />
           <Route path='/contact-us' element={<ContactUs />} />

@@ -28,7 +28,7 @@ function ContactUs() {
                 <HiOutlineMail className='ji' size={70} color={'#e03a3c'} />
               </div>
               <h3>Email Us</h3>
-              <p>tedx@vnrvjiet.in</p>
+              <a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&to=tedx@vnrvjiet.in">tedx@vnrvjiet.in</a>
             </div>
             <div className="call">
               <div className="call_logo">
@@ -36,8 +36,8 @@ function ContactUs() {
               </div>
               <h3>Call Us</h3>
               <div className="contact_text">
-                <p className='contact_para'><span>G Satya</span> <span>7893197646</span></p>
-                <p className='contact_para'> <span>Faizan M </span> <span>9010527720</span></p>
+                <p className='contact_para'><span>G Satya</span> <a href="tel:7893197646">7893197646</a></p>
+                <p className='contact_para'><span>M Faizan</span><a href="tel:9010527720">9010527720</a></p>
               </div>
             </div>
           </div>
