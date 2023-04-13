@@ -14,11 +14,11 @@ import ParticlesBackground from './components/ParticlesBackground';
 
 function App() {
 
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(false);
 
-  setTimeout(() => {
-    setLoading(false);
-  }, 4000);
+  // setTimeout(() => {
+  //   setLoading(false);
+  // }, 4000);
 
   return (
     <> { loading ? <Loading /> :
