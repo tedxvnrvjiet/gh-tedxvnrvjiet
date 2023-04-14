@@ -23,8 +23,8 @@ function Content({props}) {
     <div>
             {/* <hr className='border-0 h-1 ml-16 mb-4 rounded w-1/6  bg-white'/> */}
             <div>
-                <div className='pl-28 pr-10'>
-                        <h1 className='text-4xl mb-5 text-red-700 font-semibold'>{obj.theme} | {obj.year}</h1>
+                <div className=''>
+                        <h1 className='mobile:text-2xl  md:text-3xl lg:text-4xl mb-5 mobile:mt-4 lg:mt-0  text-red-700 font-semibold'>{obj.theme} | {obj.year}</h1>
                         <p className='text-gray-300 font-medium pr-6'>{obj.description}</p>
                 </div>
             </div>

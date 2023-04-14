@@ -9,11 +9,12 @@
     font-weight: 600;
     position: relative;
     background-color: black;
-    box-shadow: 0 0 30px hsla(0, 1%, 64%, 0.456);
+    /* box-shadow: 0 0 30px hsla(0, 1%, 64%, 0.456); */
     left: 0;
     top: 0;
     width: 100%;
     z-index: 999;
+    font-size: 17px;
 }
 
 .menu-btn {
@@ -176,7 +177,7 @@ a:hover {
 }
 
 .main_logo {
-    width: 15rem;
+    width: 13rem;
     margin: 0 1em;
-    margin-top: 10px;
+    margin-top: 5px;
 }

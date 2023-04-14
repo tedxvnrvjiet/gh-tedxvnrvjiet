@@ -225,11 +225,11 @@ function Pastspeakers({props}) {
     obj=obj["speakers"];
     console.log(obj)
   return (
-    <div className='pl-28 pr-10'>
-        <h1 className='text-4xl mb-8 text-red-700 font-semibold mt-6'>Speakers</h1>
-        <div className="grid md:grid-cols-3 xl:grid-cols-4 gap-x-6 lg:gap-xl-12">
+    <div className=''>
+        <h1 className='mobile:text-2xl  md:text-3xl lg:text-4xl mb-8 text-red-700 font-semibold mt-6'>Speakers</h1>
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-6 lg:gap-xl-12 mobile:ml-8 lg:ml-0">
             {obj.map((s)=>(
-            <div className="mb-12 pt-6 pb-6 duration-200 border-b-4 border-r-4  border-red-900/75 rounded-xl bg-black-800  hover:bg-zinc-900 transition ease-in-out delay-150 hover:scale-110" style={{width:"220px"}}>
+            <div className="mb-12 pt-6 pb-6 duration-200 rounded-xl bg-black-800  hover:bg-zinc-900 transition ease-in-out delay-150 hover:scale-110" style={{width:"220px"}}>
                 <img src={s['image']} className="rounded-lg shadow-lg mb-6 mx-auto" alt="" style={{width:"150px",height:"140px"} }/>
         
                 <p className="font-semibold mb-2 text-red-600 mx-auto text-center text-lg">{s['name']}</p>
