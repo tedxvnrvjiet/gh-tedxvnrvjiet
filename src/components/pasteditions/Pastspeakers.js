@@ -1,4 +1,6 @@
-import React from 'react'
+import React ,{useState} from 'react'
+import Modal from 'react-modal'
+import { AiFillYoutube } from "react-icons/ai";
 import cvanand from '../images/year2018/cvanand.jpg'
 import akanshabumb from '../images/year2018/akanshabumb.png'
 import rameshkumar from '../images/year2018/rameshkumar.png'
@@ -37,31 +39,31 @@ function Pastspeakers({props}) {
                 {
                     "name":"Akanksha Bumb",
                     "designation":" Co-founder and COO of F5 Travel Escapades" ,
-                    "video":"https://youtu.be/embed/8o-bsZ7cYYg",
+                    "video":"https://youtube.com/embed/8o-bsZ7cYYg",
                     "image":akanshabumb,
                 },
                 {
                     "name":"C.V. Anand",
                     "designation":"IPS Officer",            
-                    "video":"https://youtu.be/embed/rKrYLtif9pY",
+                    "video":"https://www.youtube.com/embed/rKrYLtif9pY",
                     "image":cvanand,
                 },
                 {
                     "name":"Dr. Ramesh Kumar Mishra",
                     "designation":"Neurocognitive Linguistic",
-                    "video":"https://youtu.be/embed/gK7OPnEUZFc",
+                    "video":"https://youtube.com/embed/gK7OPnEUZFc",
                     "image":rameshkumar,
                 },
                 {
                     "name":"Arshad Quadri",
                     "designation":"Calligrapher",
-                    "video":"https://youtu.be/embed/mZ9mj-BDNMM",
+                    "video":"https://youtube.com/embed/mZ9mj-BDNMM",
                     "image":arshadquadri,
                 },
                 {
                     "name":"R. Jagadeesh Kumar ",
                     "designation":"Chairman, Sri Guru Deva Charitable Trust" ,
-                    "video":"https://youtu.be/embed/X0fuX1R1UfY",
+                    "video":"https://youtube.com/embed/X0fuX1R1UfY",
                     "image":jagadeeshkumar,
                 },
                 {
@@ -78,61 +80,61 @@ function Pastspeakers({props}) {
                 {
                     "name":"Anuradha Naik",
                     "designation":"Conservation Architect & Architectural Historian",
-                    "video":"https://youtu.be/emebed/G5xEgqG2HrA",
+                    "video":"https://youtube.com/emebed/G5xEgqG2HrA",
                     "image":anuradhanaik,
                 },
                 {
                     "name":"Carolyn Theresa",
                     "designation":"Food Blogger",
-                    "video":"https://youtu.be/embed/InTY-_a6O1Y",
+                    "video":"https://youtube.com/embed/InTY-_a6O1Y",
                         "image":carolyntheresa,
                 },
                 {
                     "name":"Jawwad Patel",
                     "designation":" Founder Jawwad Patel Labs",
-                    "video":"https://youtu.be/embed/AuVAcIOQ0sU",
+                    "video":"https://youtube.com/embed/AuVAcIOQ0sU",
                     "image":jawwadpatel,
                 },
                 {
                     "name":"Mohana Krishna Indraganti",
                     "designation":"Film director & Screen writer",
-                    "video":"https://youtu.be/embed/h3NGfp-2tQw",
+                    "video":"https://youtube.com/embed/h3NGfp-2tQw",
                     "image":mohanakrishna,
                 },
                 {
                     "name":"Prashant Dhawan",
                     "designation":"Co-Founder of BiomimicryIndia & head of Biomimicry lab",
-                    "video":"https://youtu.be/embed/doVRMBPUOhA",
+                    "video":"https://youtube.com/embed/doVRMBPUOhA",
                     "image":prashantdhawan,
                 },
                 {
                     "name":"Sagarika Melkote",
                     "designation":"Vice-President, Hyderabad Runners",
-                    "video":"https://youtu.be/embed/t1AFNc4oujM",
+                    "video":"https://youtube.com/embed/t1AFNc4oujM",
                     "image":sagarikamelkote,
                 },
                 {
                     "name":"Saima Afreen",
                     "designation":"Poet",
-                    "video":"https://youtu.be/embed/quxmuicUlLw",
+                    "video":"https://youtube.com/embed/quxmuicUlLw",
                     "image":saimaafreen,
                 },
                 {
                     "name":"Sangeeta Isvaran",
                     "designation":"Bharatanatyam Dancer",
-                    "video":"https://youtu.be/embed/lCmyOGssh3c",
+                    "video":"https://youtube.com/embed/lCmyOGssh3c",
                     "image":sangeethaisvarann,
                 },
                 {
                     "name":"Suresh Reddy",
                     "designation":"Chairman and CEO",
-                    "video":"https://youtu.be/embed/blS64Pbzazc",
+                    "video":"https://youtube.com/embed/blS64Pbzazc",
                     "image":sureshreddy,
                 },
                 {
                     "name":"Tisram Band",
                     "designation":"Musicians",
-                    "video":"https://youtu.be/embed/yiIwXtYOgVQ",
+                    "video":"https://youtube.com/embed/yiIwXtYOgVQ",
                     "image":tisramband,
                 },
                 {
@@ -149,73 +151,73 @@ function Pastspeakers({props}) {
                 {
                     "name":"Band Rooh",
                     "designation":"Fusion Band",
-                    "video":"https://youtu.be/embed/yxo7DYT-9C4",
+                    "video":"https://youtube.com/embed/yxo7DYT-9C4",
                     "image":bandrooh,
                 },
                 {
                     "name":"Gandhi KPC",
                     "designation":"Forensic Scientist",
-                    "video":"https://youtu.be/embed/QJLPla3cQPo",
+                    "video":"https://youtube.com/embed/QJLPla3cQPo",
                     "image":gandhikpc,
                 },
                 {
                     "name":"Nageshwara Rao Dukkipati",
                     "designation":"Innovator",
-                    "video":"https://youtu.be/embed/crZrM2_wbOY",
+                    "video":"https://youtube.com/embed/crZrM2_wbOY",
                     "image":nageswararao,
                 },
                 {
                     "name":"Paruvu Harimohan",
                     "designation":"Writer, Cricket analyst",
-                    "video":"https://youtu.be/embed/joVith2YdXA",
+                    "video":"https://youtube.com/embed/joVith2YdXA",
                     "image":paruvuharimohan,
                 },
                 {
                     "name":"Prasad Kantamaneni",
                     "designation":"Founder of UX Reactor. Expert at Eye tracking platform",
-                    "video":"https://youtu.be/embed/9ygp8P717vQ",
+                    "video":"https://youtube.com/embed/9ygp8P717vQ",
                     "image":prasadkantamaneni,
                 },
                 {
                     "name":"Ramana Gogula",
                     "designation":"Musician, Entrepreneur",
-                    "video":"https://youtu.be/embed/-xZFQEN2CCA",
+                    "video":"https://youtube.com/embed/-xZFQEN2CCA",
                     "image":ramanagogula,
                 },
                 {
                     "name":"Ramesh Loganathan",
                     "designation":"Vice president at Progress software",
-                    "video":"https://youtu.be/embed/ncTY1hUBhuA",
+                    "video":"https://youtube.com/embed/ncTY1hUBhuA",
                     "image":rameshloganthan,
                 },
                 {
                     "name":"Sandhya Kode",
                     "designation":"Leader,Entrepreneur,Educator",
-                    "video":"https://youtu.be/embed/kLmTuRXOa14",
+                    "video":"https://youtube.com/embed/kLmTuRXOa14",
                     "image":sandhyakode,
                 },
                 {
                     "name":"Sanjay Enishetty",
                     "designation":"Entrepreneur",
-                    "video":"https://youtu.be/embed/qIhcXTzQGJQ",
+                    "video":"https://youtube.com/embed/qIhcXTzQGJQ",
                     "image":sanjayenishetty,
                 },
                 {
                     "name":"Seeta Murty",
                     "designation":"School Principal,Author",
-                    "video":"https://youtu.be/embed/JggZuQR3-2U",
+                    "video":"https://youtube.com/embed/JggZuQR3-2U",
                     "image":seetamurthy,
                 },
                 {
                     "name":"Theodore Jonnalagadda",
                     "designation":"Musician,Rapper",
-                    "video":"https://youtu.be/embed/S13ZwB2qnIE",
+                    "video":"https://youtube.com/embed/S13ZwB2qnIE",
                     "image":theodorejonnalagadda,
                 },
                 {
                     "name":"Voice Box",
                     "designation":"Beatboxers,Students",
-                    "video":"https://youtu.be/embed/G7sXUGkpJ4Q",
+                    "video":"https://youtube.com/embed/G7sXUGkpJ4Q",
                     "image":voicebox,
                 },
             ]
@@ -223,7 +225,22 @@ function Pastspeakers({props}) {
     ]
     let obj=pastSpeakers.find(o=>o.year===props);
     obj=obj["speakers"];
-    console.log(obj)
+    // console.log(obj)
+    const [modalIsOpen, setIsOpen] = React.useState(false);
+
+    const openModal = () => setIsOpen(true);
+    const closeModal = () => setIsOpen(false);
+    const customStyles = {
+        content: {
+            top: '50%',
+            left: '50%',
+            bottom: 'auto',
+            marginRight: '-40%',
+            backgroundColor:"black",
+            transform: 'translate(-50%, -50%)',
+            color: 'white'
+        },
+    };
   return (
     <div className=''>
         <h1 className='mobile:text-2xl  md:text-3xl lg:text-4xl mb-8 text-red-700 font-semibold mt-6'>Speakers</h1>
@@ -234,8 +251,26 @@ function Pastspeakers({props}) {
         
                 <p className="font-semibold mb-2 text-red-600 mx-auto text-center text-lg">{s['name']}</p>
                 <p className="text-gray-400 mx-auto text-center">{s['designation']}</p>
+                <button
+                className="hidden lg:block rounded-full hover:-translate-y-5 duration-300 text-gray-800 font-semibold border border-red-600 border-4 rounded shadow"
+                onClick={openModal}
+                >
+                    {/* <img className="w-52 rounded-full" src={props.image} alt={props.name} /> */}
+                    <AiFillYoutube className=" text-red-400  w-7" />
+                    Talk
+                </button>
+                <Modal
+                    isOpen={modalIsOpen}
+                    onRequestClose={closeModal}
+                    style={customStyles}
+                    ariaHideApp={false}
+                >
+                    <iframe id="vid_frame" height="400px" width="700px" src={s.video} title={s['name']} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    
+                </Modal>
             </div>
             ))}
+    
         </div>
     </div>
   )
