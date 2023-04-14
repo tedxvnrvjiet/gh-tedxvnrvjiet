@@ -16,7 +16,8 @@ const customStyles = {
         backgroundImage: `url(${ButterfliesDark})`,
         backgroundRepeat: 'repeat',
         backgroundSize: 'cover',
-        color: 'white'
+        color: 'white',
+        borderRadius: '30px'
     },
 };
 

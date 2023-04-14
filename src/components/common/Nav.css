@@ -44,10 +44,10 @@
     z-index: 2;
 }
 
- a {
+/* a {
     text-decoration: none !important;
   color: white !important;
-}
+} */
 
 .menu-btn span {
     display: block;
@@ -122,7 +122,7 @@
     border: none;
     font-weight: 600;
     font-style: normal;
-    font-size: 4.7vw;
+    /* font-size: 4.7vw; */
     width: 80vw;
     display: flex;
     align-items: center;
@@ -164,6 +164,7 @@ a:hover {
     align-items: center;
     gap: 20px;
     padding-right: 30px;
+    font-size: 17px;
 }
 
 /* .navLogo img{
@@ -179,5 +180,5 @@ a:hover {
 .main_logo {
     width: 13rem;
     margin: 0 1em;
-    margin-top: 5px;
+    /* margin-top: 10px;     */
 }
