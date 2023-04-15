@@ -50,10 +50,10 @@ function Nav() {
                                 <a href="/past-editions" className="linkk">
                                     <div className="menu-link">Past Editions</div>
                                 </a>
-                                <a href="/model-s" className="linkk">
+                                <a href="/team" className="linkk">
                                     <div className="menu-link">Team</div>
                                 </a>
-                                <a href="/model-s" className="linkk">
+                                <a href="/sponsors" className="linkk">
                                     <div className="menu-link">Sponsors</div>
                                 </a>
                                 <a href="/contact-us" className="linkk">
