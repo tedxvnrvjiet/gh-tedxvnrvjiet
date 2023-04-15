@@ -10,8 +10,8 @@ import Team from './components/team/Team'
 import Sponsors from './components/sponsors/Sponsors'
 import ContactUs from './components/contactUs/ContactUs.js'
 import Home from './components/home/Home';
-import ParticlesBackground from './components/ParticlesBackground';
 import Archives from './components/pasteditions/Archives'
+import background from '../src/components/images/background.jpg'
 
 function App() {
 
@@ -25,9 +25,8 @@ function App() {
     <> { loading ? <Loading /> :
       // <div style={{ position: "relative" }}>
       // <div style={{zIndex:"1"}}>
-      // <ParticlesBackground/>
       // </div>
-      <div>
+      <div style={{backgroundImage:`url(${background})`,backgroundRepeat:"repeat",backgroundSize:"cover"}}>
         {/* <Navbar/> */}
         <Nav />
         <Routes>

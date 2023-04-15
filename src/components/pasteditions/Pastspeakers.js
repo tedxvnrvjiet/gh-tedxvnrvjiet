@@ -1,4 +1,5 @@
-import React from 'react'
+import React ,{useState} from 'react'
+import Videobutton from './Videobutton';
 import cvanand from '../images/year2018/cvanand.jpg'
 import akanshabumb from '../images/year2018/akanshabumb.png'
 import rameshkumar from '../images/year2018/rameshkumar.png'
@@ -37,32 +38,32 @@ function Pastspeakers({props}) {
                 {
                     "name":"Akanksha Bumb",
                     "designation":" Co-founder and COO of F5 Travel Escapades" ,
-                    "video":"https://youtu.be/embed/8o-bsZ7cYYg",
+                    "video":"https://youtube.com/embed/8o-bsZ7cYYg",
                     "image":akanshabumb,
                 },
                 {
                     "name":"C.V. Anand",
                     "designation":"IPS Officer",            
-                    "video":"https://youtu.be/embed/rKrYLtif9pY",
+                    "video":"https://www.youtube.com/embed/rKrYLtif9pY",
                     "image":cvanand,
                 },
                 {
                     "name":"Dr. Ramesh Kumar Mishra",
                     "designation":"Neurocognitive Linguistic",
-                    "video":"https://youtu.be/embed/gK7OPnEUZFc",
+                    "video":"https://youtube.com/embed/gK7OPnEUZFc",
                     "image":rameshkumar,
-                },
-                {
-                    "name":"Arshad Quadri",
-                    "designation":"Calligrapher",
-                    "video":"https://youtu.be/embed/mZ9mj-BDNMM",
-                    "image":arshadquadri,
                 },
                 {
                     "name":"R. Jagadeesh Kumar ",
                     "designation":"Chairman, Sri Guru Deva Charitable Trust" ,
-                    "video":"https://youtu.be/embed/X0fuX1R1UfY",
+                    "video":"https://www.youtube.com/embed/X0fuX1R1UfY",
                     "image":jagadeeshkumar,
+                },
+                {
+                    "name":"Arshad Quadri",
+                    "designation":"Calligrapher",
+                    "video":"https://youtube.com/embed/mZ9mj-BDNMM",
+                    "image":arshadquadri,
                 },
                 {
                     "name":"Rakesh Kumar Renukuntala",
@@ -78,61 +79,62 @@ function Pastspeakers({props}) {
                 {
                     "name":"Anuradha Naik",
                     "designation":"Conservation Architect & Architectural Historian",
-                    "video":"https://youtu.be/emebed/G5xEgqG2HrA",
+                    "video":"https://youtube.com/emebed/G5xEgqG2HrA",
                     "image":anuradhanaik,
                 },
                 {
                     "name":"Carolyn Theresa",
                     "designation":"Food Blogger",
-                    "video":"https://youtu.be/embed/InTY-_a6O1Y",
+                    "video":"https://youtube.com/embed/InTY-_a6O1Y",
                         "image":carolyntheresa,
                 },
-                {
-                    "name":"Jawwad Patel",
-                    "designation":" Founder Jawwad Patel Labs",
-                    "video":"https://youtu.be/embed/AuVAcIOQ0sU",
-                    "image":jawwadpatel,
-                },
+                
                 {
                     "name":"Mohana Krishna Indraganti",
                     "designation":"Film director & Screen writer",
-                    "video":"https://youtu.be/embed/h3NGfp-2tQw",
+                    "video":"https://youtube.com/embed/h3NGfp-2tQw",
                     "image":mohanakrishna,
-                },
-                {
-                    "name":"Prashant Dhawan",
-                    "designation":"Co-Founder of BiomimicryIndia & head of Biomimicry lab",
-                    "video":"https://youtu.be/embed/doVRMBPUOhA",
-                    "image":prashantdhawan,
-                },
-                {
-                    "name":"Sagarika Melkote",
-                    "designation":"Vice-President, Hyderabad Runners",
-                    "video":"https://youtu.be/embed/t1AFNc4oujM",
-                    "image":sagarikamelkote,
-                },
-                {
-                    "name":"Saima Afreen",
-                    "designation":"Poet",
-                    "video":"https://youtu.be/embed/quxmuicUlLw",
-                    "image":saimaafreen,
-                },
-                {
-                    "name":"Sangeeta Isvaran",
-                    "designation":"Bharatanatyam Dancer",
-                    "video":"https://youtu.be/embed/lCmyOGssh3c",
-                    "image":sangeethaisvarann,
                 },
                 {
                     "name":"Suresh Reddy",
                     "designation":"Chairman and CEO",
-                    "video":"https://youtu.be/embed/blS64Pbzazc",
+                    "video":"https://youtube.com/embed/blS64Pbzazc",
                     "image":sureshreddy,
+                },
+                {
+                    "name":"Sagarika Melkote",
+                    "designation":"Vice-President, Hyderabad Runners",
+                    "video":"https://youtube.com/embed/t1AFNc4oujM",
+                    "image":sagarikamelkote,
+                },
+                {
+                    "name":"Sangeeta Isvaran",
+                    "designation":"Bharatanatyam Dancer",
+                    "video":"https://youtube.com/embed/lCmyOGssh3c",
+                    "image":sangeethaisvarann,
+                },
+                {
+                    "name":"Prashant Dhawan",
+                    "designation":"Co-Founder of BiomimicryIndia & head of Biomimicry lab",
+                    "video":"https://youtube.com/embed/doVRMBPUOhA",
+                    "image":prashantdhawan,
+                },
+                {
+                    "name":"Jawwad Patel",
+                    "designation":" Founder Jawwad Patel Labs",
+                    "video":"https://youtube.com/embed/AuVAcIOQ0sU",
+                    "image":jawwadpatel,
+                },
+                {
+                    "name":"Saima Afreen",
+                    "designation":"Poet",
+                    "video":"https://youtube.com/embed/quxmuicUlLw",
+                    "image":saimaafreen,
                 },
                 {
                     "name":"Tisram Band",
                     "designation":"Musicians",
-                    "video":"https://youtu.be/embed/yiIwXtYOgVQ",
+                    "video":"https://youtube.com/embed/yiIwXtYOgVQ",
                     "image":tisramband,
                 },
                 {
@@ -149,73 +151,73 @@ function Pastspeakers({props}) {
                 {
                     "name":"Band Rooh",
                     "designation":"Fusion Band",
-                    "video":"https://youtu.be/embed/yxo7DYT-9C4",
+                    "video":"https://youtube.com/embed/yxo7DYT-9C4",
                     "image":bandrooh,
                 },
                 {
                     "name":"Gandhi KPC",
                     "designation":"Forensic Scientist",
-                    "video":"https://youtu.be/embed/QJLPla3cQPo",
+                    "video":"https://youtube.com/embed/QJLPla3cQPo",
                     "image":gandhikpc,
                 },
                 {
                     "name":"Nageshwara Rao Dukkipati",
                     "designation":"Innovator",
-                    "video":"https://youtu.be/embed/crZrM2_wbOY",
+                    "video":"https://youtube.com/embed/crZrM2_wbOY",
                     "image":nageswararao,
                 },
                 {
                     "name":"Paruvu Harimohan",
                     "designation":"Writer, Cricket analyst",
-                    "video":"https://youtu.be/embed/joVith2YdXA",
+                    "video":"https://youtube.com/embed/joVith2YdXA",
                     "image":paruvuharimohan,
                 },
                 {
                     "name":"Prasad Kantamaneni",
                     "designation":"Founder of UX Reactor. Expert at Eye tracking platform",
-                    "video":"https://youtu.be/embed/9ygp8P717vQ",
+                    "video":"https://youtube.com/embed/9ygp8P717vQ",
                     "image":prasadkantamaneni,
                 },
                 {
                     "name":"Ramana Gogula",
-                    "designation":"Musician, Entrepreneur",
-                    "video":"https://youtu.be/embed/-xZFQEN2CCA",
+                    "designation":"Musician , Entrepreneur",
+                    "video":"https://youtube.com/embed/-xZFQEN2CCA",
                     "image":ramanagogula,
                 },
                 {
                     "name":"Ramesh Loganathan",
                     "designation":"Vice president at Progress software",
-                    "video":"https://youtu.be/embed/ncTY1hUBhuA",
+                    "video":"https://youtube.com/embed/ncTY1hUBhuA",
                     "image":rameshloganthan,
                 },
                 {
                     "name":"Sandhya Kode",
-                    "designation":"Leader,Entrepreneur,Educator",
-                    "video":"https://youtu.be/embed/kLmTuRXOa14",
+                    "designation":"Leader , Entrepreneur, Educator",
+                    "video":"https://youtube.com/embed/kLmTuRXOa14",
                     "image":sandhyakode,
                 },
                 {
                     "name":"Sanjay Enishetty",
                     "designation":"Entrepreneur",
-                    "video":"https://youtu.be/embed/qIhcXTzQGJQ",
+                    "video":"https://youtube.com/embed/qIhcXTzQGJQ",
                     "image":sanjayenishetty,
                 },
                 {
                     "name":"Seeta Murty",
                     "designation":"School Principal,Author",
-                    "video":"https://youtu.be/embed/JggZuQR3-2U",
+                    "video":"https://youtube.com/embed/JggZuQR3-2U",
                     "image":seetamurthy,
                 },
                 {
                     "name":"Theodore Jonnalagadda",
                     "designation":"Musician,Rapper",
-                    "video":"https://youtu.be/embed/S13ZwB2qnIE",
+                    "video":"https://youtube.com/embed/S13ZwB2qnIE",
                     "image":theodorejonnalagadda,
                 },
                 {
                     "name":"Voice Box",
                     "designation":"Beatboxers,Students",
-                    "video":"https://youtu.be/embed/G7sXUGkpJ4Q",
+                    "video":"https://youtube.com/embed/G7sXUGkpJ4Q",
                     "image":voicebox,
                 },
             ]
@@ -223,19 +225,22 @@ function Pastspeakers({props}) {
     ]
     let obj=pastSpeakers.find(o=>o.year===props);
     obj=obj["speakers"];
-    console.log(obj)
+    // console.log(obj)
+   
   return (
-    <div className='pl-28 pr-10'>
-        <h1 className='text-4xl mb-8 text-red-700 font-semibold mt-6'>Speakers</h1>
-        <div className="grid md:grid-cols-3 xl:grid-cols-4 gap-x-6 lg:gap-xl-12">
+    <div className=''>
+        <h1 className='mobile:text-2xl  md:text-3xl lg:text-4xl mb-8 text-red-700 font-semibold mt-6'>Speakers</h1>
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4  lg:gap-xl-12 mobile:ml-8 lg:ml-0">
             {obj.map((s)=>(
-            <div className="mb-12 pt-6 pb-6 duration-200 border-b-4 border-r-4  border-red-900/75 rounded-xl bg-black-800  hover:bg-zinc-900 transition ease-in-out delay-150 hover:scale-110" style={{width:"220px"}}>
-                <img src={s['image']} className="rounded-lg shadow-lg mb-6 mx-auto" alt="" style={{width:"150px",height:"140px"} }/>
+            <div className="mb-12 pt-6 pb-6 duration-200 rounded-xl  hover:bg-zinc-900 transition ease-in-out delay-150 hover:scale-110 p-6" style={{width:"250px"}}>
+                <img src={s['image']} className="rounded-lg shadow-lg mb-4 mx-auto" alt="" style={{width:"150px",height:"140px"} }/>
         
-                <p className="font-semibold mb-2 text-red-600 mx-auto text-center text-lg">{s['name']}</p>
-                <p className="text-gray-400 mx-auto text-center">{s['designation']}</p>
+                <p className="font-semibold mb-3 text-red-600 mx-auto text-center text-lg h-10">{s['name']}</p>
+                <p className="text-gray-400 mx-auto text-center h-20">{s['designation']}</p>
+                {s.video!="" && <Videobutton props={s.video}/>}
             </div>
             ))}
+    
         </div>
     </div>
   )
