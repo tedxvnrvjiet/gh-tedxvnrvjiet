@@ -8,7 +8,7 @@ import Fade from 'react-reveal/Fade';
 
 function Home() {
   return (
-    <div className='bg-black'>
+    <div>
       <Landing />
       <Fade left>
         <Timer />
