@@ -1,14 +1,16 @@
 import React, { useState } from 'react';
 import Countdown from 'react-countdown';
 import styled from "styled-components";
+import './Timer.css'
 
 const Timer = () => {
 
     const CountdownWrapper = styled.div`
     display: flex;
     justify-content: center;
-    background-color: black;
+    /* background-color: rgb(0, 0, 0, 0.5); */
     `;
+
 
     const TimerBox = styled.div`
     display: flex;
@@ -20,12 +22,18 @@ const Timer = () => {
 
     const Number = styled.div`
     font-size: 50px;
+    @media (max-width: 768px) {
+        font-size: 30px;   
+    }
     font-weight: bold;
     color: white;
     `;
 
     const Label = styled.div`
     font-size: 20px;
+    @media (max-width: 768px) {
+        font-size: 10px;
+    }
     color: white;
     `;
 
@@ -37,11 +45,11 @@ const Timer = () => {
         } 
         else {
             return (
-                <div className='bg-black pb-1 pt-10'>
-                    <h1 className="text-center text-5xl text-red-600 font-bold mb-10">
-                        The Countdown Begins for a Day of Innovation and Inspiration!
+                <div className='tclass'>
+                    <h1 className="text-red-600 font-bold">
+                        Live in
                     </h1>
-                    <CountdownWrapper className='mb-20'>
+                    <CountdownWrapper className='mb-5'>
                         <TimerBox>
                             <Number>{days}</Number>
                             <Label>Days</Label>

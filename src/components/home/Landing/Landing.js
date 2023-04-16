@@ -1,5 +1,6 @@
 import React from 'react'
 import './Landing.css'
+import Timer from '../Timer/Timer'
 
 function Landing() {
     let index = 0,
@@ -26,15 +27,19 @@ function Landing() {
 
     }
     return (
-        <div className='scroller'>
+        <div style={{display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center"}} className='scroller'>
+        
             <div className="scroll-window">
                 <div className="scroll-container">
-                    <div className="scrolling text-5xl md:text-9xl magic-text">IDEAS</div>
-                    <div className="scrolling text-5xl md:text-9xl magic-text">WORTH</div>
-                    <div className="scrolling text-5xl md:text-9xl magic-text">SPREADING</div>
-                    <div className="scrolling text-5xl md:text-9xl magic-text">TEDx</div>
-                    <div className="scrolling text-5xl md:text-9xl magic-text">IDEAS</div>
+                    <div className="scrolling magic-text">IDEAS</div>
+                    <div className="scrolling magic-text">WORTH</div>
+                    <div className="scrolling magic-text">SPREADING</div>
+                    <div className="scrolling magic-text">TEDx</div>
+                    <div className="scrolling magic-text">IDEAS</div>
                 </div>
+            </div>
+            <div className="containerr">
+                <Timer />
             </div>
         </div>
     )

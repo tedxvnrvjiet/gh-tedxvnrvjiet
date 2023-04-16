@@ -10,9 +10,6 @@ function Home() {
   return (
     <div>
       <Landing />
-      <Fade left>
-        <Timer />
-      </Fade>
       <Fade right>
         <TEDx />
       </Fade>

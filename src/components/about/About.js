@@ -2,10 +2,10 @@ import React from 'react'
 
 function About() {
   return (
-   <div className=' pt-10 pb-28 text-white'>
+   <div className=' pt-10 pb-28 mt-20 text-white'>
      <div className='md:mx-32'>
       <div className=' rounded-lg p-4'>
-      <p className='mb-8 font-sans font-bold text-4xl'>About <a className='text-red-600'>TED</a></p>
+      <p className='mb-8 font-bold text-4xl'>About <a className='text-red-600'>TED</a></p>
       <div className=' flex flex-col space-y-8 md:flex-row md:space-y-0  md:space-x-8'>
         <p className='flex-auto'>
           TED is a nonprofit organization devoted to Ideas Worth Spreading. Started as a four-day conference in California 30 years ago, TED has grown to support its mission with multiple initiatives. The two annual TED Conferences invite the world's leading thinkers and doers to speak for 18 minutes or less. Many of these talks are then made available, free, at TED.com. TED speakers have included Bill Gates, Jane Goodall, Elizabeth Gilbert, Sir Richard Branson, Nandan Nilekani, Philippe Starck, Ngozi Okonjo-Iweala, Sal Khan and Daniel Kahneman.
@@ -16,14 +16,14 @@ function About() {
       </div>
       </div>
       <div className=' rounded-lg p-4 mt-10'>
-      <p className='mb-8 font-sans font-bold text-4xl'>About <a className='text-red-600'>TED<sup>X</sup></a></p>
-      <p className=' font-sans '>
+      <p className='mb-8  font-bold text-4xl'>About <a className='text-red-600'>TED<sup>X</sup></a></p>
+      <p className='  '>
         In the spirit of ideas worth spreading, TEDx is a program of local, self-organized events that bring people together to share a TED-like experience. At a TEDx event, TED Talks video and live speakers combine to spark deep discussion and connection. These local, self-organized events are branded TEDx, where x = independently organized TED event. The TED Conference provides general guidance for the TEDx program, but individual TEDx events are self-organized. (Subject to certain rules and regulations.)
       </p>
       </div>
       <div className=' rounded-lg mt-10 p-4'>
-            <p className='font-sans font-bold text-4xl mb-8'>About <a className='text-red-600'>TED<sup>X</sup></a>VNRVJIET</p>
-            <p className='font-sans '>
+            <p className=' font-bold text-4xl mb-8'>About <a className='text-red-600'>TED<sup>X</sup></a>VNRVJIET</p>
+            <p className=' '>
             Inspired by the mission pledged on by TED,
       “ideas worth spreading”
       , Tedx events promote

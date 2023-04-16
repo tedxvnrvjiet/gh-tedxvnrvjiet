@@ -22,6 +22,8 @@ function Nav() {
         // e.preventDefault();
         setShow(!show);
     }
+    const but = `<button onclick="popup('tedxvnrvjiet');" class="tsbutton">Register Now</button><noscript id="tsNoJsMsg">Javascript on your browser is not enabled.</noscript><script src="https://www.townscript.com/static/Bookingflow/js/townscript-widget.nocache.js" type="text/javascript"></script>`
+
 
 
     return (
@@ -41,10 +43,10 @@ function Nav() {
                         <span></span>
                         <div className="menu">
                             <div className="menu-links">
-                                <a href="/home" className="linkk">
+                                <a href="/" className="linkk">
                                     <div className="menu-link">Home</div>
                                 </a>
-                                <a href="/about-us" className="linkk">
+                                <a href="/about" className="linkk">
                                     <div className="menu-link">About</div>
                                 </a>
                                 <a href="/past-editions" className="linkk">
@@ -58,6 +60,9 @@ function Nav() {
                                 </a>
                                 <a href="/contact-us" className="linkk">
                                     <div className="menu-link">Contact Us</div>
+                                </a>
+                                <a href="/register" className="linkk">
+                                    <div className="menu-link">Register</div>
                                 </a>
                             </div>
                         </div>
@@ -79,6 +84,9 @@ function Nav() {
                             </a>
                             <a href="/contact-us" className="link">
                                 Contact Us
+                            </a>
+                            <a href="/register" className="link">
+                                Register
                             </a>
                     </div>
                 )}

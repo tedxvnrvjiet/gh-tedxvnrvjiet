@@ -18,8 +18,8 @@ function Team() {
   ]
   
   return (
-    <div className='mt-24'>
-        <div class="flex flex-col md:flex-row justify-center">
+    <div className='mt-40 profile'>
+        <div class="flex flex-col md:flex-row justify-center align-center">
         {
           arr1.map((ar,index)=><TeamMember key={index} ar={ar}/>)
         }
