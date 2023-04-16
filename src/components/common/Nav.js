@@ -41,10 +41,10 @@ function Nav() {
                         <span></span>
                         <div className="menu">
                             <div className="menu-links">
-                                <a href="/home" className="linkk">
+                                <a href="/" className="linkk">
                                     <div className="menu-link">Home</div>
                                 </a>
-                                <a href="/about-us" className="linkk">
+                                <a href="/about" className="linkk">
                                     <div className="menu-link">About</div>
                                 </a>
                                 <a href="/past-editions" className="linkk">
