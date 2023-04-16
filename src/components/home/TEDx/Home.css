@@ -1,0 +1,30 @@
+.tedx {
+ /* padding: 20px 80px;    */
+}
+
+.speaker_title h1::after {
+    background: #e03a3c;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 3px;
+    left: calc(50% - 25px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 20px;
+    /* position: absolute; */
+    width: 50px;
+}
+
+@media screen and (max-width: 768px) {
+    .tedx {
+        padding: 20px 30px;
+    }
+
+    .tedx_heading {
+        font-size: 2.4rem;
+        padding: 0px 20px;
+    }
+}

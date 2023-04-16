@@ -13,20 +13,22 @@ function Footer() {
                 <img className='logo' src={logo} alt="TedXVNRVJIET Logo" />
             </div>
               <div className="footer_links">
-                  <div className="link">Home</div>
+                  <div className="f_link"><a href="/">Home</a></div>
                   <span>|</span>
-                  <div className="link">About</div>
+                  <div className="f_link"><a href="/about">About</a></div>
                   <span>|</span>
-                  <div className="link">Team</div>
+                  <div className="f_link"><a href="/team">Team</a></div>
                   <span>|</span>
-                  <div className="link">Sponsors</div>
+                  <div className="f_link"><a href="/sponsors">Sponsors</a></div>
                   <span>|</span>
-                  <div className="link">Contact</div>
+                  <div className="f_link"><a href="/contact-us">Contact</a></div>
+                  <span>|</span>
+                  <div className="f_link"><a href="/register">Register</a></div>
               </div>
               <div className="footer_social">
-                    <div className="social_logo"> <IoLogoInstagram size={30} /> </div>
-                  <div className="social_logo"> <IoLogoLinkedin size={30} /> </div>
-                  <div className="social_logo"> <HiOutlineMail size={30} /> </div>
+                  <div className="social_logo"> <a target='_blank' href="https://instagram.com/tedxvnrvjiet"><IoLogoInstagram size={30} /> </a></div>
+                  <div className="social_logo"> <a target='_blank' href="https://www.linkedin.com/company/tedx-vnrvjiet/about/"><IoLogoLinkedin size={30} /></a> </div>
+                  <div className="social_logo"> <a href="mailto:tedx@vnrvjiet.in"><HiOutlineMail size={30} /> </a></div>
               </div>
               <hr color='white' className='line'/>
               <div className="footer_trademark">

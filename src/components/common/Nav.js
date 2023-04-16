@@ -22,6 +22,8 @@ function Nav() {
         // e.preventDefault();
         setShow(!show);
     }
+    const but = `<button onclick="popup('tedxvnrvjiet');" class="tsbutton">Register Now</button><noscript id="tsNoJsMsg">Javascript on your browser is not enabled.</noscript><script src="https://www.townscript.com/static/Bookingflow/js/townscript-widget.nocache.js" type="text/javascript"></script>`
+
 
 
     return (
@@ -59,6 +61,9 @@ function Nav() {
                                 <a href="/contact-us" className="linkk">
                                     <div className="menu-link">Contact Us</div>
                                 </a>
+                                <a href="/register" className="linkk">
+                                    <div className="menu-link">Register</div>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -79,6 +84,9 @@ function Nav() {
                             </a>
                             <a href="/contact-us" className="link">
                                 Contact Us
+                            </a>
+                            <a href="/register" className="link">
+                                Register
                             </a>
                     </div>
                 )}

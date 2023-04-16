@@ -11,6 +11,7 @@ import Sponsors from './components/sponsors/Sponsors'
 import ContactUs from './components/contactUs/ContactUs.js'
 import Home from './components/home/Home';
 import Archives from './components/pasteditions/Archives'
+import Register from './components/register/Register';
 import background from '../src/components/images/background.jpg'
 
 function App() {
@@ -26,7 +27,7 @@ function App() {
       // <div style={{ position: "relative" }}>
       // <div style={{zIndex:"1"}}>
       // </div>
-      <div style={{backgroundImage:`url(${background})`,backgroundRepeat:"repeat",backgroundSize:"cover"}}>
+      <div style={{backgroundImage:`url(${background})`,backgroundRepeat:"repeat",backgroundSize:"cover", overflowX: "hidden"}}>
         {/* <Navbar/> */}
         <Nav />
         <Routes>
@@ -36,6 +37,7 @@ function App() {
           <Route path='/team' element={<Team />} />
           <Route path='/sponsors' element={<Sponsors />} />
           <Route path='/contact-us' element={<ContactUs />} />
+          <Route path='/register' element={<Register />} />
         </Routes>
         <Footer />
         </div>
