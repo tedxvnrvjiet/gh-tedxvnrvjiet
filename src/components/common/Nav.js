@@ -3,6 +3,7 @@ import "./Nav.css";
 // import vnr from "../../Assets/vnr.png";
 import logo from "../../assets/logos/logo-white.png";
 import { useMediaQuery } from "react-responsive";
+import TicketsLogo1 from '../../assets/logos/TicketsLogo1'
 
 function Nav() {
     //usestate hook to know whether the device is mobile or a laptop
@@ -62,7 +63,7 @@ function Nav() {
                                     <div className="menu-link">Contact Us</div>
                                 </a>
                                 <a href="/register" className="linkk">
-                                    <div className="menu-link">Register</div>
+                                    <div className="menu-link">Tickets <TicketsLogo1 className='-ml-0.5' /></div>
                                 </a>
                             </div>
                         </div>
@@ -86,7 +87,8 @@ function Nav() {
                                 Contact Us
                             </a>
                             <a href="/register" className="link">
-                                Register
+                                Tickets 
+                                <TicketsLogo1 />
                             </a>
                     </div>
                 )}
