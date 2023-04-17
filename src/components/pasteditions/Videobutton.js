@@ -19,6 +19,9 @@ function Videobutton({props}) {
             transform: 'translate(-50%, -50%)',
             color: 'white',
         },
+        // overlay: {
+        //     background: "rgba(220, 220, 220, 0.50)"
+        // },
     };
   return (
     <div>
