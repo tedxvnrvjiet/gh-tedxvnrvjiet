@@ -1,12 +1,32 @@
-import React from 'react'
+import React, {useRef} from 'react'
 import './Contact.css'
 import {IoLocationSharp} from 'react-icons/io5'
 import {HiOutlineMail} from 'react-icons/hi'
 import {TbPhoneCall} from 'react-icons/tb'
+import emailjs from '@emailjs/browser';
+import toast, { Toaster } from 'react-hot-toast';
+// import { sendMail, sendMailClient } from "./email";
 
 function ContactUs() {
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_hkxr8o5', 'template_9vmjbyh', form.current, 'RnNExIqLaXFERTIvI')
+      .then((result) => {
+        console.log(result.text);
+        toast.success('Email sent successfully');
+      }, (error) => {
+        console.log(error.text);
+        toast.error('Email not sent');
+      });
+  };
+
   return (
     <div className='contact_us'>
+      <Toaster />
       <div className="contact_title"><h2>CONTACT</h2></div>
       <p className='contact_info'>We would love to respond to your queries and help you succeed. Feel free to get in touch with us</p>
       <div className="info_container">
@@ -44,21 +64,21 @@ function ContactUs() {
         </div>
         <div className="container_right">
           <div className="form">
-            <form>
+            <form ref={form} onSubmit={sendEmail}>
               <div className="input__row">
-                <input type="text" placeholder='Name' />
-                <input type="email" placeholder='Email' />
+                <input type="text" name='user_name' placeholder='Name' />
+                <input type="email" name='user_email' placeholder='Email' />
               </div>
               <div className="input_row">
-                <input type="tel" name="" placeholder='Phone No.' id="" />
+                <input type="tel" name="phone_no" placeholder='Phone No.' id="" />
               </div>
               <div className="input_row">
-                <input type="text" placeholder='Subject' />
+                <input type="text" name='subject' placeholder='Subject' />
               </div>
               <div className="input_row">
-                <textarea name="" id="" cols="30" rows="5" placeholder='Message'></textarea>
+                <textarea name='message' id="" cols="30" rows="5" placeholder='Message'></textarea>
               </div>
-              <input  type="submit" value="Send Message" />
+              <input  type="submit" value="Send" />
             </form>
           </div>
         </div>

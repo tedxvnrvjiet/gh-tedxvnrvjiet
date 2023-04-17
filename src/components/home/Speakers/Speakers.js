@@ -32,7 +32,7 @@ const SpeakersInfo = [
         name: 'Aditi Sharma',
         designation: '',
         image: AditiSharma,
-        description: '',
+        description: 'Aditi Sharma is the winner of the Mrs. Universe India and Mrs. Universe Photogenic titles in 2022. She is a mother, homemaker, educator, and strong woman who inspires others through her social media platform. Aditi promotes the message that anything is possible if you work towards your dreams.',
         instagram: 'https://www.instagram.com/aditi.mrsuniverseindia/?igshid=YmMyMTA2M2Y%3D'
     },
     {
@@ -46,7 +46,7 @@ const SpeakersInfo = [
         name: 'Amir Nair',
         designation: 'Leadership Development Expert',
         image: 'https://media.licdn.com/dms/image/D4D03AQFKKE7NAKEICA/profile-displayphoto-shrink_800_800/0/1679584645359?e=1686787200&v=beta&t=t7HnP0Nuk_sQHXSjqSJ17YubA2DbxR1TMi2xI9fNgaI',
-        description: '',
+        description: 'Amir Nair is an accomplished leader with over two decades of experience studying the science of success. He has worked with Fortune 100 companies, including Dell, HSBC, and Bank of America, and is passionate about helping IT & ITES professionals achieve career growth. Amir is a certified MBTI practitioner and ICF-certified, and is known for his charismatic speaking style.',
         linkedin: 'https://www.linkedin.com/in/amirnair/overlay/photo/'
     },
     {
