@@ -5,6 +5,7 @@ import InstagramLogo from "../../../assets/logos/InstagramLogo";
 import FacebookLogo from "../../../assets/logos/FacebookLogo";
 import ClickIcon from "../../../assets/logos/ClickIcon";
 import ButterfliesDark from '../../../assets/ButterfliesDark.png';
+import './Speaker.css'
 
 const customStyles = {
     content: {
@@ -13,12 +14,17 @@ const customStyles = {
         bottom: 'auto',
         marginRight: '-40%',
         transform: 'translate(-50%, -50%)',
-        backgroundImage: `url(${ButterfliesDark})`,
+        // backgroundImage: `url(${ButterfliesDark})`,
+        backgroundColor: 'black',
         backgroundRepeat: 'repeat',
         backgroundSize: 'cover',
         color: 'white',
+        border: 'none',
         borderRadius: '30px'
     },
+    overlay: {
+        background: "rgba(220, 220, 220, 0.50)"
+    }
 };
 
 export default function SpeakerDetails(props) {
@@ -50,13 +56,14 @@ export default function SpeakerDetails(props) {
                 <img className="w-52 rounded-full" src={props.image} alt={props.name} />
                 <ClickIcon className="text-red-400 absolute bottom-3 right-3" />
             </button>
-            { isHovered && 
+            {isHovered &&
                 <>
                     <div className="text-white text-center bg-red-600 rounded-xl -mt-2 p-1">
-                        { props.name }
+                        {props.name}
                     </div>
-                </> }
+                </>}
             <Modal
+                closeTimeoutMS={1500}
                 isOpen={modalIsOpen}
                 onRequestClose={closeModal}
                 style={customStyles}
@@ -65,14 +72,14 @@ export default function SpeakerDetails(props) {
                 <img className="hidden sm:block w-52 rounded-full m-auto pb-2" src={props.image} alt={props.name} />
                 <div className="text-center">
                     <div className="font-bold text-2xl inline mr-2">
-                        { props.name }
+                        {props.name}
                     </div>
                     <div className="text-xl inline mr-2 align-text-center">
-                        - { props.designation }
+                        - {props.designation}
                     </div>
-                    { props?.linkedin && <a className="rounded bg-white m-1 align-text-bottom" href={props.linkedin}><LinkedInLogo /></a>}
-                    { props?.instagram && <a className="rounded bg-white m-1 align-text-bottom" href={props.instagram}><InstagramLogo /></a>}
-                    { props?.facebook && <a className=" m-1 align-text-bottom" href={props.facebook}><FacebookLogo /></a>}
+                    {props?.linkedin && <a className="rounded bg-white m-1 align-text-bottom" href={props.linkedin}><LinkedInLogo /></a>}
+                    {props?.instagram && <a className="rounded bg-white m-1 align-text-bottom" href={props.instagram}><InstagramLogo /></a>}
+                    {props?.facebook && <a className=" m-1 align-text-bottom" href={props.facebook}><FacebookLogo /></a>}
                 </div>
                 <br />
                 <p>{props.description}</p>
