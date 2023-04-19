@@ -26,7 +26,7 @@ function Videobutton({props}) {
   return (
     <div>
         <button
-                className="lg:block rounded-lg hover:bg-white  hover:text-red-700 text-white ease-in duration-300 delay-400 bg-red-800 px-2 mx-auto mobile:ml-20 lg:mx-auto w-28"
+                className="rounded-lg hover:bg-white  hover:text-red-700 text-white ease-in duration-300 delay-400 bg-red-800 w-28"
                 onClick={openModal}
                 >
                     {/* <img className="w-52 rounded-full" src={props.image} alt={props.name} /> */}

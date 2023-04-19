@@ -227,18 +227,18 @@ function Pastspeakers({props}) {
     let obj=pastSpeakers.find(o=>o.year===props);
     obj=obj["speakers"];
     // console.log(obj)
-   
   return (
     <div className=''>
         <h1 className='mobile:text-2xl  md:text-3xl lg:text-4xl mb-1 text-red-700 font-semibold mt-6  '>Speakers</h1>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3  lg:gap-xl-12">
             {obj.map((s)=>(
-            <div className=" rounded-xl mb-4 duration-200   hover:bg-zinc-900 transition ease-in-out delay-150 hover:scale-105 p-6 mobile:w-68 lg:w-80">
+            <div className=" rounded-xl mb-4 duration-200   hover:bg-zinc-900 transition ease-in-out delay-150 hover:scale-105  p-4 mobile:w-68 lg:w-80">
                 <img src={s['image']} className="rounded-lg shadow-lg mb-4 mx-auto" alt="" style={{width:"195px",height:"180px"} }/>
-        
                 <p className="font-semibold mb-2 text-red-600 mx-auto text-center text-lg h-6">{s['name']}</p>
                 <p className="text-gray-400 mx-auto text-center h-14">{s['designation']}</p>
-                {s.video!="" && <Videobutton props={s.video}/>}
+                <div className='text-center mx-auto'>
+                    {s.video!="" && <Videobutton props={s.video}/>}
+                </div>
             </div>
             ))}
     
