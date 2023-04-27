@@ -5,7 +5,7 @@ import TEDx from './TEDx/TEDx'
 import Theme from './Theme/Theme'
 import Speakers from './Speakers/Speakers'
 import Fade from 'react-reveal/Fade';
-
+import Timeline from './Timeline/Timeline'
 function Home() {
   return (
     <div>
@@ -16,6 +16,7 @@ function Home() {
       <Fade left>
         <Theme />
       </Fade>
+      <Timeline/>
       <Fade right>
         <Speakers />
       </Fade>
