@@ -11,14 +11,14 @@ function Home() {
     <div>
       <Landing />
       <Timeline/>
+      <Fade right>
+        <TEDx />
+      </Fade>
       <Fade left>
         <Theme />
       </Fade>
       <Fade right>
         <Speakers />
-      </Fade>
-      <Fade right>
-        <TEDx />
       </Fade>
     </div>
   )
