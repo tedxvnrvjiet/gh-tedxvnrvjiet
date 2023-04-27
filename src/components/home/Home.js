@@ -10,15 +10,15 @@ function Home() {
   return (
     <div>
       <Landing />
-      <Fade right>
-        <TEDx />
-      </Fade>
+      <Timeline/>
       <Fade left>
         <Theme />
       </Fade>
-      <Timeline/>
       <Fade right>
         <Speakers />
+      </Fade>
+      <Fade right>
+        <TEDx />
       </Fade>
     </div>
   )

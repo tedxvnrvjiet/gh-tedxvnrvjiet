@@ -2,15 +2,15 @@ import React from 'react'
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import {FaGifts} from "react-icons/fa"
-import {SlSpeech} from "react-icons/sl"
 import {SiBytedance} from 'react-icons/si'
 import {IoFastFoodSharp} from "react-icons/io5"
 import {MdStickyNote2} from "react-icons/md"
 import {TbBrandComedyCentral} from "react-icons/tb"
+import {BsFillMicFill} from "react-icons/bs"
 function Timeline() {
   return (
     <div className='bg-black'>
-        <h1 className="text-center text-5xl text-red-600 font-bold mb-10 tedx_heading">
+        <h1 className="text-center text-5xl text-red-600 font-bold mb-10 tedx_heading pt-8">
             Event Timeline
         </h1>
         <VerticalTimeline>
@@ -34,7 +34,7 @@ function Timeline() {
                 date="10:00 am - 10:15 am"
                 dateClassName="!font-bold"
                 iconStyle={{ background: '#D10000', color: '#fff'}}
-                icon={<SlSpeech/>}
+                icon={<BsFillMicFill/>}
             >
                 <p style={{marginTop:".1rem"}}>
                 Introduction Speech
@@ -60,7 +60,7 @@ function Timeline() {
                 date="10:30 am - 11:00 am"
                 dateClassName="!font-bold"
                 iconStyle={{ background: '#D10000', color: '#fff'}}
-                icon={<SlSpeech/>}
+                icon={<BsFillMicFill/>}
             >
                 <p style={{marginTop:".1rem"}}>
                 TED Talk by Rishab Signh
@@ -73,7 +73,7 @@ function Timeline() {
                 contentArrowStyle={{ borderRight: '7px solid  #A30000' }}
                 date="11:00 am - 11:30 am"
                 iconStyle={{ background: '#D10000', color: '#fff', }}
-                icon={<SlSpeech/>}
+                icon={<BsFillMicFill/>}
             >
                 <p style={{marginTop:".1rem"}}>
                 TED Talk by Sunil Mudra
@@ -99,7 +99,7 @@ function Timeline() {
                 contentArrowStyle={{ borderRight: '7px solid  #A30000' }}
                 date="12:00 am - 12:30 am"
                 iconStyle={{ background: '#D10000', color: '#fff', }}
-                icon={<SlSpeech/>}
+                icon={<BsFillMicFill/>}
             >
                 <p style={{marginTop:".1rem"}}>
                 TED Talk by Anveshi Jain
@@ -125,7 +125,7 @@ function Timeline() {
                 contentArrowStyle={{ borderRight: '7px solid  #A30000' }}
                 date="1:50 pm - 2:20 pm"
                 iconStyle={{ background: '#D10000', color: '#fff', }}
-                icon={<SlSpeech/>}
+                icon={<BsFillMicFill/>}
             >
                 <p style={{marginTop:".1rem"}}>
                 TED Talk by Raghu Karumanchi
@@ -138,7 +138,7 @@ function Timeline() {
                 date="2:20 pm - 2:50 pm"
                 dateClassName="!font-bold"
                 iconStyle={{ background: '#D10000', color: '#fff'}}
-                icon={<SlSpeech/>}
+                icon={<BsFillMicFill/>}
             >
                 <p style={{marginTop:".1rem"}}>
                 TED Talk by Amir Nair
@@ -151,7 +151,7 @@ function Timeline() {
                 contentArrowStyle={{ borderRight: '7px solid  #A30000' }}
                 date="2:50 pm - 3:20 pm"
                 iconStyle={{ background: '#D10000', color: '#fff', }}
-                icon={<SlSpeech/>}
+                icon={<BsFillMicFill/>}
             >
                 <p style={{marginTop:".1rem"}}>
                 TED Talk by Aditi Sharma
@@ -164,7 +164,7 @@ function Timeline() {
                 date="3:20 pm - 3:50 pm"
                 dateClassName="!font-bold"
                 iconStyle={{ background: '#D10000', color: '#fff'}}
-                icon={<SlSpeech/>}
+                icon={<BsFillMicFill/>}
             >
                 <p style={{marginTop:".1rem"}}>
                 TED Talk by Surya Prakash Gajjalla
