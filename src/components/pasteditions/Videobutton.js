@@ -19,11 +19,14 @@ function Videobutton({props}) {
             transform: 'translate(-50%, -50%)',
             color: 'white',
         },
+        // overlay: {
+        //     background: "rgba(220, 220, 220, 0.50)"
+        // },
     };
   return (
     <div>
         <button
-                className="lg:block rounded-lg hover:bg-white  hover:text-red-700 text-white ease-in duration-300 delay-400 bg-red-800 px-2 mx-auto mobile:ml-14 lg:mx-auto"
+                className="rounded-lg hover:bg-white  hover:text-red-700 text-white ease-in duration-300 delay-400 bg-red-800 w-28"
                 onClick={openModal}
                 >
                     {/* <img className="w-52 rounded-full" src={props.image} alt={props.name} /> */}
