@@ -9,8 +9,8 @@ import {TbBrandComedyCentral} from "react-icons/tb"
 import {BsFillMicFill} from "react-icons/bs"
 function Timeline() {
   return (
-    <div className='bg-black'>
-        <h1 className="text-center text-5xl text-red-600 font-bold mb-10 tedx_heading pt-8">
+    <div className='bg-black mobile:pt-8  '>
+        <h1 className="text-center text-5xl text-red-600 font-bold mb-10 tedx_heading pt-12">
             Event Timeline
         </h1>
         <VerticalTimeline>
@@ -24,7 +24,7 @@ function Timeline() {
                 icon={<FaGifts/>}
             >
                 <p style={{marginTop:".1rem"}}>
-                Reporting time and goodies collection
+                Reporting Time and Goodies Collection
                 </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
@@ -37,7 +37,7 @@ function Timeline() {
                 icon={<BsFillMicFill/>}
             >
                 <p style={{marginTop:".1rem"}}>
-                Introduction Speech
+                Welcome Speech
                 </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
@@ -50,7 +50,7 @@ function Timeline() {
                 icon={<SiBytedance/>}
             >
                 <p style={{marginTop:".1rem"}}>
-                Dance performance by Nritya Tarang
+                Cultural Performance by Nritya Tarang
                 </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
@@ -63,7 +63,7 @@ function Timeline() {
                 icon={<BsFillMicFill/>}
             >
                 <p style={{marginTop:".1rem"}}>
-                TED Talk by Rishab Signh
+                First Speaker, Rishabh Singh
                 </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
@@ -76,7 +76,7 @@ function Timeline() {
                 icon={<BsFillMicFill/>}
             >
                 <p style={{marginTop:".1rem"}}>
-                TED Talk by Sunil Mudra
+                Second speaker, Sunil Mundra
                 </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
@@ -89,7 +89,7 @@ function Timeline() {
                 icon={<TbBrandComedyCentral/>}
             >
                 <p style={{marginTop:".1rem"}}>
-                Standup Comedy
+                Standup performance
                 </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
@@ -102,20 +102,20 @@ function Timeline() {
                 icon={<BsFillMicFill/>}
             >
                 <p style={{marginTop:".1rem"}}>
-                TED Talk by Anveshi Jain
+                Third speaker, Amir Nair
                 </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
                 className="vertical-timeline-element--work h-16"
                 textClassName='h-20'
                 contentStyle={{ background: '#fff', color: '#ff0000',borderColor:"#A30000" }}
-                date="12:30 am - 1:45 pm"
+                date="12:30 am - 1:00 pm"
                 dateClassName="!font-bold"
                 iconStyle={{ background: '#D10000', color: '#fff'}}
-                icon={<IoFastFoodSharp/>}
+                icon={<BsFillMicFill/>}
             >
                 <p style={{marginTop:".1rem"}}>
-                Lunch and Experince zone
+                Fourth speaker, Anveshi Jain
                 </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
@@ -123,12 +123,12 @@ function Timeline() {
                 textClassName='h-20'
                 contentStyle={{ background: '#A30000', color: '#fff' }}
                 contentArrowStyle={{ borderRight: '7px solid  #A30000' }}
-                date="1:50 pm - 2:20 pm"
+                date="1:00 pm - 2:15 pm"
                 iconStyle={{ background: '#D10000', color: '#fff', }}
-                icon={<BsFillMicFill/>}
+                icon={<IoFastFoodSharp/>}
             >
                 <p style={{marginTop:".1rem"}}>
-                TED Talk by Raghu Karumanchi
+                Lunch Break and Interaction
                 </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
@@ -141,7 +141,7 @@ function Timeline() {
                 icon={<BsFillMicFill/>}
             >
                 <p style={{marginTop:".1rem"}}>
-                TED Talk by Amir Nair
+                Fifth speaker, Raghu Karumanchi
                 </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
@@ -154,7 +154,7 @@ function Timeline() {
                 icon={<BsFillMicFill/>}
             >
                 <p style={{marginTop:".1rem"}}>
-                TED Talk by Aditi Sharma
+                Penultimate speaker, Aditi Sharma
                 </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
@@ -167,7 +167,7 @@ function Timeline() {
                 icon={<BsFillMicFill/>}
             >
                 <p style={{marginTop:".1rem"}}>
-                TED Talk by Surya Prakash Gajjalla
+                Culminating speaker, Surya Prakash Gajjalla
                 </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
@@ -180,7 +180,7 @@ function Timeline() {
                 icon={<SiBytedance/>}
             >
                 <p style={{marginTop:".1rem"}}>
-                Singing performce by Anveshi Jain
+                Lively singing performance by Anveshi Jain
                 </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
@@ -193,7 +193,7 @@ function Timeline() {
                 icon={<MdStickyNote2/>}
             >
                 <p style={{marginTop:".1rem"}}>
-                End Note
+                Closing keynote
                 </p>
             </VerticalTimelineElement>
             
