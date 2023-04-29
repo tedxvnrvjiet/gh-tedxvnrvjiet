@@ -63,7 +63,7 @@ function Timeline() {
                 icon={<BsFillMicFill/>}
             >
                 <p style={{marginTop:".1rem"}}>
-                First Speaker, Rishabh Singh
+                First Speaker, Sunil Mundra 
                 </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
@@ -76,7 +76,7 @@ function Timeline() {
                 icon={<BsFillMicFill/>}
             >
                 <p style={{marginTop:".1rem"}}>
-                Second speaker, Sunil Mundra
+                Second speaker, Amir Nair
                 </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
@@ -102,7 +102,7 @@ function Timeline() {
                 icon={<BsFillMicFill/>}
             >
                 <p style={{marginTop:".1rem"}}>
-                Third speaker, Amir Nair
+                Third speaker, Anveshi Jain
                 </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
@@ -115,7 +115,7 @@ function Timeline() {
                 icon={<BsFillMicFill/>}
             >
                 <p style={{marginTop:".1rem"}}>
-                Fourth speaker, Anveshi Jain
+                Fourth speaker, Rishabh Singh
                 </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
