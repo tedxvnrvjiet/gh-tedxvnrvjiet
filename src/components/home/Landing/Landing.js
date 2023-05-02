@@ -41,9 +41,9 @@ function Landing() {
             <div className="containerr">
                 <Timer />
             </div>
-            <button class="mt-10 text-xl bg-gray-100 hover:opacity-95 hover:shadow-white hover:bg-red-600 hover:text-gray-100 text-red-600 font-semibold py-2 px-4 border-2 border-gray-100 shadow-lg shadow-red-400 hover:border-gray-100 rounded shadow">
+            {/* <button class="mt-10 text-xl bg-gray-100 hover:opacity-95 hover:shadow-white hover:bg-red-600 hover:text-gray-100 text-red-600 font-semibold py-2 px-4 border-2 border-gray-100 shadow-lg shadow-red-400 hover:border-gray-100 rounded shadow">
                 <a href="/register">Get your tickets now!</a>
-            </button>
+            </button> */}
         </div>
     )
 }
