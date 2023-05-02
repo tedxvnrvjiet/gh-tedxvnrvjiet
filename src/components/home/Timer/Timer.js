@@ -41,7 +41,7 @@ const Timer = () => {
 
     const renderer = ({ days, hours, minutes, seconds, completed }) => {
         if (completed) {
-            return <div>Countdown completed!</div>;
+            return <div className='text-5xl mt-10'></div>;
         } 
         else {
             return (
