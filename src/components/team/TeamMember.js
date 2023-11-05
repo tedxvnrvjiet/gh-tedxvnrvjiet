@@ -14,8 +14,8 @@ function TeamMember(props) {
       <h4 class="title">{props.ar.post}</h4>
     </div>
     <ul class="social">
-      <li><a href="https://codepen.io/collection/XdWJOQ/" aria-hidden="true"><FaLinkedin className='icon' /></a></li>
-      <li><a href="https://codepen.io/collection/XdWJOQ/" aria-hidden="true"><FaInstagram  className='icon'/></a></li>
+      <li><a href={props.ar.linkedin} aria-hidden="true"><FaLinkedin className='icon' /></a></li>
+      <li><a href={props.ar.instagram} aria-hidden="true"><FaInstagram  className='icon'/></a></li>
     </ul>
   </div>
   )
