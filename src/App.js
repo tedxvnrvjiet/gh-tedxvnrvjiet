@@ -7,6 +7,7 @@ import Loading from './components/loading/Loading';
 import { Route, Routes } from 'react-router-dom';
 import About from './components/about/About'
 import Team from './components/team/Team'
+import Team2K24 from './components/Team2K24/Team2K24.js'
 import Sponsors from './components/sponsors/Sponsors'
 import ContactUs from './components/contactUs/ContactUs.js'
 import Home from './components/home/Home';
@@ -35,6 +36,7 @@ function App() {
           <Route path='/about' element={<About />} />
           <Route path='/past-editions' element={<Archives />} />
           <Route path='/team' element={<Team />} />
+          <Route path='/team24' element={<Team2K24 />} />
           <Route path='/sponsors' element={<Sponsors />} />
           <Route path='/contact-us' element={<ContactUs />} />
           <Route path='/register' element={<Register />} />

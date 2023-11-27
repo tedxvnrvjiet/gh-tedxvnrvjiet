@@ -19,7 +19,7 @@ function Footer() {
                   <span>|</span>
                   <div className="f_link"><a href="/past-editions">Past Editions</a></div>
                   <span>|</span>
-                  <div className="f_link"><a href="/team">Team</a></div>
+                  <div className="f_link"><a href="/team24">Team</a></div>
                   <span>|</span>
                   <div className="f_link"><a href="/sponsors">Sponsors</a></div>
                   <span>|</span>

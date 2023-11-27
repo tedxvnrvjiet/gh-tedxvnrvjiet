@@ -53,7 +53,7 @@ function Nav() {
                                 <a href="/past-editions" className="linkk">
                                     <div className="menu-link">Past Editions</div>
                                 </a>
-                                <a href="/team" className="linkk">
+                                <a href="/team24" className="linkk">
                                     <div className="menu-link">Team</div>
                                 </a>
                                 <a href="/sponsors" className="linkk">
@@ -77,7 +77,7 @@ function Nav() {
                             <a href="/past-editions" className="link">
                                 Past Editions
                                 </a>
-                            <a href="/team" className="link">
+                            <a href="/team24" className="link">
                                 Team
                             </a>
                             <a href="/sponsors" className="link">
