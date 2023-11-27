@@ -18,7 +18,7 @@ import Deepika from '../../assets/Team24/Deepika.jpg'
 import Sanjana from '../../assets/Team24/Sanjana (1).jpg'
 import Harshadha from '../../assets/Team24/harshadha.jpg'
 import Siddhardha from '../../assets/Team24/Siddhardha.jpg'
-import Adithya from '../../assets/Team24/adithya.jpg'
+import Adithya from '../../assets/Team24/adithya (2).JPG'
 import Prayaag from '../../assets/Team24/prayaag.PNG'
 import Vaishnav from '../../assets/Team24/VAISHNAV.jpg'
 import harika from '../../assets/Team24/harika.jpg'
@@ -28,6 +28,7 @@ import Waseem from '../../assets/Team24/waseem.jpg'
 import DRishitha from '../../assets/Team24/d rishitha.jpg'
 import Karthikeya from '../../assets/Team24/kartikeya.JPG'
 import Monitha from '../../assets/Team24/monitha.jpg'
+import Chaitanya from '../../assets/Team24/Chaitanya.jpg'
 function Team2K24() {
   const org=[
     {
@@ -185,13 +186,13 @@ function Team2K24() {
       linkedin: "https://www.linkedin.com/in/anirudh-bukka/",
       
   },
- /* { url:,
+ { url:Chaitanya,
     name: "CHAITANYA TARIGOPULA",
     post:"Networking Co-Head",
     instagram: "https://www.instagram.com/siri_11",
     linkedin: "https://www.linkedin.com/in/siri-jaka-704820265",
     
-}*/
+}
   ]
 
   const marketing=[
