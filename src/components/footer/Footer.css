@@ -62,3 +62,15 @@
     color: white!important;
     background-color: white;
 }
+
+.team_link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+}
+.team_link a {
+    text-align: center; 
+    color: inherit; 
+    text-decoration: underline;
+}
