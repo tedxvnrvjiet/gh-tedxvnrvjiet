@@ -35,8 +35,7 @@ function Team2K24() {
       url:Rishitha,
       name:"RISHITHA SAGAR",
       post:"Organizer",
-      linkedin:"",
-      instagram:""
+      instagram:"https://www.instagram.com/rishitha_sagar/"
     }
   ]
   const coorg=[
@@ -44,15 +43,13 @@ function Team2K24() {
       url:Abdul,
       name:"M A SAMI",
       post:"Co-Organizer",
-      linkedin:"",
-      instagram:""
+      instagram:"https://www.instagram.com/stfu.samxx__/"
     },
     {
       url:Kaif,
       name:"KAIF",
       post:"Co-Organizer",
-      linkedin:"",
-      instagram:""
+      instagram:"https://www.instagram.com/kaif____ll/"
     }
   ]
   const tech=[
@@ -60,15 +57,13 @@ function Team2K24() {
       url:Manhith,
       name:"MANHITH SAI",
       post:"Technical Head",
-      linkedin:"",
-      instagram:""
+      instagram:"https://www.instagram.com/mhithsai/",
     },
     {
       url:Vibha,
       name:"SREEVIBHA GANGAVARAM",
       post:"Technical Co-Head",
-      linkedin:"",
-      instagram:""
+      instagram:"https://www.instagram.com/sree_vibha/",
     }
     
   ]
@@ -76,15 +71,13 @@ function Team2K24() {
     { url:Deekshitha,
       name: "DEEKSHITA BANDI",
       post:"Content Head",
-      instagram: "https://www.instagram.com/likhith_illa/",
-      linkedin: "https://www.linkedin.com/in/likhith-illa-a37357226/",
+      instagram: "https://www.instagram.com/dee.__20/",
       
   },
   { url :Shreya,
     name: "SHREYA REDDY",
     post:"Content Co-Head",
-    instagram: "https://instagram.com/_ananya_0102?igshid=ZDdkNTZiNTM=",
-    linkedin: "https://www.linkedin.com/in/ananya-komaravelli123",
+    instagram: "https://www.instagram.com/_shreya.reddy07_/",
     
 }
 
@@ -94,15 +87,13 @@ function Team2K24() {
   { url:Sanjana,
     name: "SANJANA MOHITE",
     post:"Public Relations Head",
-    instagram: "https://instagram.com/shriysss?igshid=YmMyMTA2M2Y=",
-    linkedin: "Shriya hanumanthu",
+    instagram: "https://www.instagram.com/ll.sanjana.ll/",
     
 },
 { url:Jashwanth,
   name: "JASWANTH KONDABROLU",
   post:"Public Relations Co-Head",
-  instagram: "https://www.instagram.com/bhavs_333",
-  linkedin: "https://www.linkedin.com/in/bhavani-kanchukommala-01292320a",
+  instagram: "https://www.instagram.com/jash_017/",
   
 }
 
@@ -111,15 +102,13 @@ function Team2K24() {
     { url: Gautami,
       name: "GAUTAMI",
       post:"Designing Head",
-      instagram: "https://www.instagram.com/apurva.gunnalle ",
-      linkedin: "https://www.linkedin.com/in/apurva-g-4341791b5",
+      instagram: "https://www.instagram.com/gautami_13/",
       
   },
   { url: Sakshi,
     name: "SAKSHI",
     post:"Designing Co-Head",
-    instagram: "https://www.instagram.com/abun_dnce",
-    linkedin: "https://www.linkedin.com/in/shaik-sabeeha-kouser-bbb45a205",
+    instagram: "https://www.instagram.com/sakshi_punwatkar/",
     
 }
   ]
@@ -127,15 +116,13 @@ function Team2K24() {
     { url:Vaishnav,
       name: "VAISHNAV ARKALA",
       post: "Event Management Head",
-      instagram: "https://www.instagram.com/akhilesh.kumandan",
-      linkedin: "https://www.linkedin.com/in/akhilesh-kumandan-418188211/",
+      instagram: "https://www.instagram.com/vaishnav_arkala/",
       
   },
   { url:Harshadha,
     name: "HARSHADHA BOLLINENI",
     post: "Event Management Co-Head",
-    instagram: "https://www.instagram.com/anidude09/",
-    linkedin: "https://www.linkedin.com/in/anirudh-bukka/",
+    instagram: "https://www.instagram.com/harshadha_26/",
     
 }
   ]
@@ -144,21 +131,18 @@ function Team2K24() {
   { url:Deepika,
     name: "DEEPIKA",
     post:"Ticketing Head",
-    instagram: "https://www.instagram.com/aman_paidlewar",
-    linkedin: "https://www.linkedin.com/in/aman-paidlewar-770ba7228",
+    instagram: "https://www.instagram.com/deepika_lalithasai/",
     
 },
 { url:Raman,
   name: "RAMAN GARG",
   post:"Finance Head and Treasurer",
-  instagram: "https://www.instagram.com/_amal_012/?next=%2F",
-  linkedin: "https://www.linkedin.com/in/amal-k-34b0aa1a0/",
+  instagram: "https://www.instagram.com/ramangarg714/",
   
 },{ url:Sravanth,
   name: "SRAVANTH MIRTIPATI",
   post:"Stalls Head",
-  instagram: "https://www.instagram.com/aman_paidlewar",
-  linkedin: "https://www.linkedin.com/in/aman-paidlewar-770ba7228",
+  instagram: "https://www.instagram.com/m.sravanth_10/",
   
 }
   ]
@@ -166,15 +150,13 @@ function Team2K24() {
     { url:harika,
       name: "HARIKA KALAKATA",
       post:"Hospitality Head",
-      instagram: "https://www.instagram.com/ll.sanjana.ll ",
-      linkedin: "https://www.linkedin.com/in/sanjana-mohite-718920263",
+      instagram: "https://www.instagram.com/rika_xit/",
       
   },
   { url:DRishitha,
     name: "RISHITHA REDDY",
     post:"Hospitality Co-head",
-    instagram: "https://www.instagram.com/ll.sanjana.ll ",
-    linkedin: "https://www.linkedin.com/in/sanjana-mohite-718920263",
+    instagram: "https://www.instagram.com/rishithadaivamdinne/",
     
 }
   ]
@@ -182,15 +164,13 @@ function Team2K24() {
     { url:Tanvi,
       name: "TANVI REDDY",
       post:"Networking Head",
-      instagram: "https://www.instagram.com/anidude09/",
-      linkedin: "https://www.linkedin.com/in/anirudh-bukka/",
+      instagram: "https://www.instagram.com/vi_ta.05/",
       
   },
  { url:Chaitanya,
     name: "CHAITANYA TARIGOPULA",
     post:"Networking Co-Head",
-    instagram: "https://www.instagram.com/siri_11",
-    linkedin: "https://www.linkedin.com/in/siri-jaka-704820265",
+    instagram: "https://www.instagram.com/chaitanya_081/",
     
 }
   ]
@@ -200,15 +180,13 @@ function Team2K24() {
   { url:Siddhardha,
     name: "SIDDARDH",
     post:"Marketing Head",
-    instagram: "https://www.instagram.com/siri_11",
-    linkedin: "https://www.linkedin.com/in/siri-jaka-704820265",
+    instagram: "https://www.instagram.com/_siddardha_3/",
     
 },
 { url:Adithya,
   name: "SAI ADITHYA",
   post:"Marketing Co-Head",
-  instagram: "https://www.instagram.com/anidude09/",
-  linkedin: "https://www.linkedin.com/in/anirudh-bukka/",
+  instagram: "https://www.instagram.com/saiadithya._/",
   
 },
   ]
@@ -218,15 +196,13 @@ function Team2K24() {
   { url:Waseem,
     name: "WASEEM",
     post:"Photography Head",
-    instagram: "https://www.instagram.com/siri_11",
-    linkedin: "https://www.linkedin.com/in/siri-jaka-704820265",
+    instagram: "https://www.instagram.com/yepwaseem_/",
     
 },
 { url:Karthikeya,
   name: "KARTHIKEYA GUTHIKONDA",
   post: "Photography Co-Head",
-  instagram: "https://www.instagram.com/anidude09/",
-  linkedin: "https://www.linkedin.com/in/anirudh-bukka/",
+  instagram: "https://www.instagram.com/karthikeya.guthikonda/",
   
 },
   ]
@@ -235,15 +211,13 @@ function Team2K24() {
   { url:Prayaag,
     name: "PRAYAAG REDDY",
     post:"Spponsorship Head",
-    instagram: "https://www.instagram.com/siri_11",
-    linkedin: "https://www.linkedin.com/in/siri-jaka-704820265",
+    instagram: "https://www.instagram.com/prayaag.reddy_/",
     
 },
 { url:Monitha,
   name: "MONITHA MYNENI",
   post:"Sponsorship Co-Head",
-  instagram: "https://www.instagram.com/anidude09/",
-  linkedin: "https://www.linkedin.com/in/anirudh-bukka/",
+  instagram: "https://www.instagram.com/cherry_monitha/",
   
 }
   ]
