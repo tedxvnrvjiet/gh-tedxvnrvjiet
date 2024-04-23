@@ -1,0 +1,17 @@
+.termsBlock {
+    /* color: white; */
+    background: rgba(245, 245, 245, 0.932);
+    margin: 0 80px;
+    margin-top: 180px;
+    border-radius: 8px;
+    padding: 10px 40px;
+}
+
+/* css for mobile view */
+@media (max-width: 768px) {
+    .termsBlock {
+        margin: 0 20px;
+        margin-top: 80px;
+        padding: 10px 20px;
+    }
+}

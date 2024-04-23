@@ -29,6 +29,12 @@ function Footer() {
                   <div className="f_link"><a href="/contact-us">Contact</a></div>
                   <span>|</span>
                   <div className="f_link"><a href="/register">Tickets</a></div>
+                  <span>|</span>
+                  <div className="f_link"><a href="/terms-and-conditions">T&C</a></div>
+                  <span>|</span>
+                  <div className="f_link"><a href="/privacy-policy">Privacy Policy</a></div>
+                  <span>|</span>
+                  <div className="f_link"><a href="/refund-and-shipping">Refund Policy</a></div>
               </div>
               <div className="footer_social">
                   <div className="social_logo"> <a target='_blank' href="https://instagram.com/tedxvnrvjiet"><IoLogoInstagram size={30} /> </a></div>
