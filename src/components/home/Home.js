@@ -11,7 +11,7 @@ import comingSoonImage from './Coming-Soon/COMINGSOON.png'; // Replace with the 
 function Home() {
   return (
     <div>
-      <div style={{ textAlign: 'center'}}> {}
+      <div style={{ textAlign: 'center' }}> {}
         <img src={comingSoonImage} alt="Coming Soon" style={{ maxWidth: '100%' }} />
       </div>
       {/* <Landing /> */}
