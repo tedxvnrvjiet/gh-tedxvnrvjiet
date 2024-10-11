@@ -47,19 +47,19 @@ function Pastspeakers({props}) {
                     
                     "name":"Anveshi Jain",
                     "designation":"Actor, Singer" ,
-                    "video":"",
+                    "video":"https://www.youtube.com/embed/3TX9ZHMueaY?si=nXeK590Mc5zvAFC0",
                     "image":anveshijain,
                 },
                 {
                     "name":"Rishabh Singh",
                     "designation":"Branding Expert and Strategist",            
-                    "video":"",
+                    "video":"https://www.youtube.com/embed/2CjllNkdrpQ?si=UypIQZyQB6g6ILnO",
                     "image":rishabh,
                 },
                 {
                     "name":"Raghu Karumanchi",
                     "designation":"Actor",
-                    "video":"",
+                    "video":"https://www.youtube.com/embed/I9I8vicSzJk?si=4EVa7_klu-6vmoh0",
                     "image":raghu,
                 },
                 {
@@ -71,19 +71,19 @@ function Pastspeakers({props}) {
                 {
                     "name":"Sunil Mundra",
                     "designation":"Author, CXO Advisor, Organizational Change and Transformation Leader",
-                    "video":"",
+                    "video":"https://www.youtube.com/embed/qDEj3UKKwWw?si=cQlzS0gATSHoihVd",
                     "image":sunil,
                 },
                 {
                     "name":"Amir Nair",
                     "designation":"Leadership Development Expert" ,
-                    "video":"",
+                    "video":"https://www.youtube.com/embed/HvNtJPDgD8I?si=bXVdeTDamXkyQmJD",
                     "image":amir,
                 },
                 {
                     "name":"Surya Prakash Gajjalla",
                     "designation":"CEO, Archimedes Green Energys Private Limited" ,
-                    "video":"",
+                    "video":"https://www.youtube.com/embed/x9cZGk3oTuQ?si=1R3XGRkL9QwGl66R",
                     "image":suryaprakash,
                 },
             ]
