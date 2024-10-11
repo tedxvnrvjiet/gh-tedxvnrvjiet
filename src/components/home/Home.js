@@ -6,29 +6,31 @@ import React from 'react';
 // import Speakers from './Speakers/Speakers';
 // import Fade from 'react-reveal/Fade';
 // import Timeline from './Timeline/Timeline';
-import comingSoonImage from './Coming-Soon/COMINGSOON.png'; // Replace with the actual path
+import bgvideo from './Videos/TedxVNR.mp4'; 
 
 function Home() {
   return (
-    <div>
-      <div style={{ 
-        position: 'relative',  
-        width: '100vw',      
-        height: '100vh',       
-        overflow: 'hidden',}}> {}
-      <img
-           src={comingSoonImage}
-           alt="Coming Soon"
-           style={{
-             width: '100vw',    
-             height: '100vh',   
-             objectFit: 'cover', 
-             position: 'absolute',
-             top: 0,
-             left: 0
-           }}
-        />
-      </div>
+    <div style={{ position: 'relative', width: '100vw', height: '100vh', overflow: 'hidden', margin: 0, padding: 0 }}>
+      <video 
+        src={bgvideo} 
+        autoPlay 
+        muted 
+        loop 
+        style={{ 
+          position: 'absolute', 
+          top: '50%', 
+          left: '50%', 
+          minWidth: '100%', 
+          minHeight: '100%', 
+          width: 'auto', 
+          height: 'auto', 
+          transform: 'translate(-50%, -50%)' 
+        }}
+      >
+        <source src={bgvideo} type="video/mp4" />
+      </video>
+
+      {/* Other components */}
       {/* <Landing /> */}
       {/* <Timeline /> */}
       {/* <Fade right> */}
@@ -41,7 +43,6 @@ function Home() {
         {/* <Speakers /> */}
       {/* </Fade> */}
     </div>
-    
   );
 }
 
