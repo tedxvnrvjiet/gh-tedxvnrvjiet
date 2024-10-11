@@ -56,8 +56,10 @@ function ContactUs() {
               </div>
               <h3>Call Us</h3>
               <div className="contact_text">
-                <p className='contact_para'><span>G Satya</span> <a href="tel:7893197646">7893197646</a></p>
-                <p className='contact_para'><span>M Faizan</span><a href="tel:9010527720">9010527720</a></p>
+                <p className='contact_para'><span>Rishitha &nbsp;</span> <a href="tel:9618021501">9618021501</a></p>
+                <p className='contact_para'><span>KAIF</span><a href="tel:8978443304">8978443304</a></p>
+                <p className='contact_para'><span>SAMI</span><a href="tel:9676733260">9676733260</a></p>
+
               </div>
             </div>
           </div>

@@ -33,6 +33,55 @@ import voicebox from "../images/year2016/voicebox.png"
 function Pastspeakers({props}) {
     const pastSpeakers=[
         {
+            "year":2023,
+            "speakers":[
+                {   //only some people's pictures are available
+                    //CHANGE THE YOUTUBE LINKS
+                    
+                    "name":"Anveshi Jain",
+                    "designation":"change yt links!Actor, Singer" ,
+                    "video":"https://youtube.com/embed/8o-bsZ7cYYg",
+                    "image":akanshabumb,
+                },
+                {
+                    "name":"Rishabh Singh",
+                    "designation":"IPS Officer",            
+                    "video":"https://www.youtube.com/embed/rKrYLtif9pY",
+                    "image":cvanand,
+                },
+                {
+                    "name":"Raghu Karumanchi",
+                    "designation":"Neurocognitive Linguistic",
+                    "video":"https://youtube.com/embed/gK7OPnEUZFc",
+                    "image":rameshkumar,
+                },
+                {
+                    "name":"Aditi Sharma",
+                    "designation":"Chairman, Sri Guru Deva Charitable Trust" ,
+                    "video":"https://www.youtube.com/embed/X0fuX1R1UfY",
+                    "image":jagadeeshkumar,
+                },
+                {
+                    "name":"Sunil Mundra",
+                    "designation":"Calligrapher",
+                    "video":"https://youtube.com/embed/mZ9mj-BDNMM",
+                    "image":arshadquadri,
+                },
+                {
+                    "name":"Amir Nair",
+                    "designation":"Entrepreneur, VFX" ,
+                    "video":"",
+                    "image":rakeshkumar,
+                },
+                {
+                    "name":"Surya Prakash Gajjalla",
+                    "designation":"Entrepreneur, VFX" ,
+                    "video":"",
+                    "image":rakeshkumar,
+                },
+            ]
+        },
+        {
             "year":2018,
             "speakers":[
                 {

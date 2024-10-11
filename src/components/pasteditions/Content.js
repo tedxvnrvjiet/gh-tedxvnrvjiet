@@ -16,6 +16,11 @@ function Content({props}) {
             "year":2018,         
             "theme":"Prism",
             "description":"The third edition of TEDxVNRVJIET was held on the 24th of March 2018 and the theme for the event was ‘Prism’. Prism being the converging influence of colours was symbolic of the TEDxVNRVJIET community being the confluence of various ideas and opinions. The theme also served to transform small dreams into bigger realities and irrationalities to rationalities."
+        },
+        {
+            "year":2023,         
+            "theme":"Butterfly Effect",
+            "description":"The fifth edition of TEDxVNRVJIET took place on the 2nd of May, 2023, under the theme The Butterfly Effect. This concept emphasizes how small, seemingly insignificant actions can lead to large, transformative changes over time. The event highlighted the power of collective effort, encouraging participants to recognize how their individual choices contribute to shaping a better future. Much like the flapping of a butterfly’s wings, each idea, no matter how small, has the potential to create a wave of influence that reverberates across communities and beyond."
         }
     ]
     let obj=data.find(o=>o.year===props);
