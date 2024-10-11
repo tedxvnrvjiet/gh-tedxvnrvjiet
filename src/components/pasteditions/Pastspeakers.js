@@ -28,6 +28,13 @@ import sandhyakode from "../images/year2016/sandhyakode.jpg"
 import sanjayenishetty from "../images/year2016/sanjayenishetty.png"
 import seetamurthy from "../images/year2016/seetamurthy.jpg"
 import theodorejonnalagadda from "../images/year2016/theodorejonnalagadda.png"
+import anveshijain from "../images/year2023/AnveshiJain.jpg"
+import amir from "../images/year2023/Amir.jpg"
+import rishabh from "../images/year2023/Rishab.jpg"
+import raghu from "../images/year2023/Raghu.jpg"
+import aditi from "../images/year2023/Aditi.jpg"
+import sunil from "../images/year2023/Sunil.jpg"
+import suryaprakash from "../images/year2023/Surya Prakash.jpg"
 import voicebox from "../images/year2016/voicebox.png"
 
 function Pastspeakers({props}) {
