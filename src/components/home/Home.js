@@ -6,7 +6,7 @@ import React from 'react';
 // import Speakers from './Speakers/Speakers';
 // import Fade from 'react-reveal/Fade';
 // import Timeline from './Timeline/Timeline';
-import bgvideo from './Videos/TedxVNR.mp4'; 
+import bgvideo from './Videos/bgvideo.mp4'; 
 
 function Home() {
   return (
