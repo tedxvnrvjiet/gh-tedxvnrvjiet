@@ -28,6 +28,13 @@ import sandhyakode from "../images/year2016/sandhyakode.jpg"
 import sanjayenishetty from "../images/year2016/sanjayenishetty.png"
 import seetamurthy from "../images/year2016/seetamurthy.jpg"
 import theodorejonnalagadda from "../images/year2016/theodorejonnalagadda.png"
+import anveshijain from "../images/year2023/AnveshiJain.jpg"
+import amir from "../images/year2023/Amir.jpg"
+import rishabh from "../images/year2023/Rishab.jpg"
+import raghu from "../images/year2023/Raghu.jpg"
+import aditi from "../images/year2023/Aditi.jpg"
+import sunil from "../images/year2023/Sunil.jpg"
+import suryaprakash from "../images/year2023/Surya Prakash.jpg"
 import voicebox from "../images/year2016/voicebox.png"
 
 function Pastspeakers({props}) {
@@ -39,45 +46,45 @@ function Pastspeakers({props}) {
                     //CHANGE THE YOUTUBE LINKS
                     
                     "name":"Anveshi Jain",
-                    "designation":"change yt links!Actor, Singer" ,
-                    "video":"https://youtube.com/embed/8o-bsZ7cYYg",
-                    "image":akanshabumb,
+                    "designation":"Actor, Singer" ,
+                    "video":"",
+                    "image":anveshijain,
                 },
                 {
                     "name":"Rishabh Singh",
-                    "designation":"IPS Officer",            
-                    "video":"https://www.youtube.com/embed/rKrYLtif9pY",
-                    "image":cvanand,
+                    "designation":"Branding Expert and Strategist",            
+                    "video":"",
+                    "image":rishabh,
                 },
                 {
                     "name":"Raghu Karumanchi",
-                    "designation":"Neurocognitive Linguistic",
-                    "video":"https://youtube.com/embed/gK7OPnEUZFc",
-                    "image":rameshkumar,
+                    "designation":"Actor",
+                    "video":"",
+                    "image":raghu,
                 },
                 {
                     "name":"Aditi Sharma",
-                    "designation":"Chairman, Sri Guru Deva Charitable Trust" ,
-                    "video":"https://www.youtube.com/embed/X0fuX1R1UfY",
-                    "image":jagadeeshkumar,
+                    "designation":"Beauty Pageant" ,
+                    "video":"",
+                    "image":aditi,
                 },
                 {
                     "name":"Sunil Mundra",
-                    "designation":"Calligrapher",
-                    "video":"https://youtube.com/embed/mZ9mj-BDNMM",
-                    "image":arshadquadri,
+                    "designation":"Author, CXO Advisor, Organizational Change and Transformation Leader",
+                    "video":"",
+                    "image":sunil,
                 },
                 {
                     "name":"Amir Nair",
-                    "designation":"Entrepreneur, VFX" ,
+                    "designation":"Leadership Development Expert" ,
                     "video":"",
-                    "image":rakeshkumar,
+                    "image":amir,
                 },
                 {
                     "name":"Surya Prakash Gajjalla",
-                    "designation":"Entrepreneur, VFX" ,
+                    "designation":"CEO, Archimedes Green Energys Private Limited" ,
                     "video":"",
-                    "image":rakeshkumar,
+                    "image":suryaprakash,
                 },
             ]
         },
