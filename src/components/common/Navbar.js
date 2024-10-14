@@ -5,6 +5,7 @@ import Home from '../home/Home'
 import About from '../about/About'
 import Team from '../team/Team'
 import Sponsors from '../sponsors/Sponsors'
+import Faculty from '../faculty/Faculty'
 import ContactUs from '../contactUs/ContactUs'
 import Archives from '../pasteditions/Archives'
 import { Route, Routes} from 'react-router-dom'
@@ -16,6 +17,7 @@ const navigation = [
   { name: 'Past Editions', href: '/past-editions', current: false },
   { name: 'Team', href: '/team', current: false },
   { name: 'Sponsors', href: '/sponsors', current: false },
+  { name: 'Faculty', href: '/faculty', current: false },
   { name: 'Contact Us', href: '/contact-us', current: false },
 
 ]
@@ -103,6 +105,7 @@ function Navbar() {
             <Route path='/team' element={<Team />} />
             <Route path='/past-editions' element={<Archives />} />
             <Route path='/sponsors' element={<Sponsors />} />
+            <Route path='/faculty' element={<Faculty />} />
             <Route path='/contact-us' element={<ContactUs />} />
         </Routes>
     </div>
