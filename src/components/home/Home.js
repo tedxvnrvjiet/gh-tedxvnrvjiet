@@ -18,13 +18,11 @@ function Home() {
         loop 
         style={{ 
           position: 'absolute', 
-          top: '50%', 
-          left: '50%', 
-          minWidth: '100%', 
-          minHeight: '100%', 
-          width: 'auto', 
-          height: 'auto', 
-          transform: 'translate(-50%, -50%)' 
+          top: '0', 
+          left: '0', 
+          width: '100%', 
+          height: '100%', 
+          objectFit: 'cover',  // Make sure the video covers the container without distortion
         }}
       >
         <source src={bgvideo} type="video/mp4" />
@@ -42,6 +40,14 @@ function Home() {
       {/* <Fade right> */}
         {/* <Speakers /> */}
       {/* </Fade> */}
+
+      <style jsx>{`
+        @media (max-width: 768px) {
+          video {
+            object-fit: cover;
+          }
+        }
+      `}</style>
     </div>
   );
 }

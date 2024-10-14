@@ -12,9 +12,9 @@ function Footer() {
             <div className="footer_logo">
                 <img className='logo' src={logo} alt="TedXVNRVJIET Logo" />
             </div>
-              <div className="footer_links team_link">
+              {/* <div className="footer_links team_link">
                   <div className="f_link"><a href="/team">Team 2023</a></div>
-              </div>
+              </div> */}
               <div className="footer_links">
                   <div className="f_link"><a href="/">Home</a></div>
                   <span>|</span>

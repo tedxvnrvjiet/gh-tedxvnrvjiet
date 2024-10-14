@@ -18,6 +18,12 @@ function Previousthemes() {
                         <li className='md:pt-0 lg:pt-3'><button onClick={()=>setYear(2017)}>Paradigm Shift | 2017</button></li>
                         <li className='md:pt-0 lg:pt-3'><button onClick={()=>setYear(2016)}>Unshelling | 2016</button></li>
                    </ul>
+                   <h1 className='mobile:text-xl md:text-2xl md:mb-0 lg:mb-1 text-red-600 font-semibold mt-10'>Previous Teams</h1>
+                    <ul className='text-gray-300'>
+                    <li className='md:pt-0 lg:pt-3'>
+                        <button><a href="/team">Team 2023</a></button>
+                    </li>
+                    </ul>
                 </div>
             </div>
             <div className='lg:col-span-3 gap-4 mobile:pl-10 lg:pl-20 lg:pr-8'>
