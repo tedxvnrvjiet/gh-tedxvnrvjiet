@@ -7,7 +7,7 @@ import Speakers from './Speakers/Speakers';
 // import Fade from 'react-reveal/Fade';
 // import Timeline from './Timeline/Timeline';
 import bgvideo from './Videos/bgvideo.mp4'; 
-import bgImage from '../../assets/ButterfliesDark.png'
+import bgImage from '../images/background.jpg'
 
 function Home() {
   return (
@@ -17,28 +17,31 @@ function Home() {
           backgroundImage: `url(${bgImage})`, 
           backgroundSize: 'cover', 
           backgroundPosition: 'center', 
-          height: '100vh', 
+          minHeight: '75vh', // Use minHeight to ensure it grows with content
           display: 'flex', 
           justifyContent: 'center', 
           alignItems: 'center', 
           position: 'relative',
+          padding: '0 20px', // Added horizontal padding for smaller screens
+          overflow: 'hidden', // Prevent overflow issues
         }}
       >
         <div 
           style={{ 
             position: 'absolute', 
-            top: '30%', 
+            top: '20%', // Moved the content up
             backgroundColor: 'rgba(0, 0, 0, 0.6)', 
             color: 'white', 
-            padding: '20px', 
+            padding: '15px', // Reduced padding
             borderRadius: '10px',
             textAlign: 'center',
+            maxWidth: '90%', // Limit the width for better appearance
           }}
         >
-          <h1 style={{ fontSize: '3rem', fontWeight: 'bold' }}>
+          <h1 style={{ fontSize: '2.5rem', fontWeight: 'bold' }}>
             <span style={{ color: 'red' }}>TED<sup>x</sup></span>VNRVJIET
           </h1>
-          <h2 style={{ fontSize: '2rem', margin: '10px 0' }}><b> 28th October, 2024</b></h2>
+          <h2 style={{ fontSize: '1.5rem', margin: '10px 0' }}><b>28th October, 2024</b></h2>
           <Timer /> 
           <div style={{ marginTop: '20px', fontSize: '1rem' }}>
             <p>VNR Vignana Jyothi Institute of Engineering and Technology</p>
@@ -46,8 +49,8 @@ function Home() {
         </div>
       </div>
 
-      {/* Speakers Section Below the Background Image */}
-      <div style={{ marginTop: '5px' }}>
+      {/* Ensure the speakers section appears below the background section */}
+      <div style={{ marginTop: '0px', padding: '20px' }}> {/* Adjust padding for spacing */}
         <Speakers />
       </div>
     </div>
