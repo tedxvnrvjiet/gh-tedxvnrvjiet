@@ -57,6 +57,9 @@ function Register() {
                 </div>
               ))}
             </div>
+            <div className="text-white mt-6">
+              and more <span className="text-red-500">. . .</span>
+            </div>
           </div>
         </div>
       </div>
