@@ -7,7 +7,7 @@ import Speakers from './Speakers/Speakers';
 // import Fade from 'react-reveal/Fade';
 // import Timeline from './Timeline/Timeline';
 import bgvideo from './Videos/bgvideo.mp4'; 
-import bgImage from '../images/background.jpg'
+import bgImage from '../../assets/ButterfliesDark.png'
 
 function Home() {
   return (
