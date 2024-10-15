@@ -44,7 +44,9 @@ export default function SpeakerDetails(props) {
                 onMouseLeave={handleLeave}
                 onClick={openModal}
             >
-                <img className="w-52 rounded-full" src={props.image} alt={props.name} />
+                <img className="w-52 rounded-full object-cover" 
+                    src={props.image} 
+                    alt={props.name} />
                 <ClickIcon className="hidden hover:block text-red-400 absolute bottom-3 right-3" />
             </button>
             <button
@@ -53,15 +55,13 @@ export default function SpeakerDetails(props) {
                 onMouseLeave={handleLeave}
                 onClick={openModal}
             >
-                <img className="w-52 rounded-full" src={props.image} alt={props.name} />
+                <img className="w-52 rounded-full object-cover" src={props.image} alt={props.name} />
                 <ClickIcon className="text-red-400 absolute bottom-3 right-3" />
             </button>
-            {isHovered &&
-                <>
-                    <div className="text-white text-center bg-red-600 rounded-xl -mt-2 p-1">
-                        {props.name}
-                    </div>
-                </>}
+            {/* Name always visible below the image */}
+            <div className="text-white text-center bg-red-600 rounded-xl p-1 mt-2">
+                {props.name}
+            </div>
             <Modal
                 closeTimeoutMS={1500}
                 isOpen={modalIsOpen}
@@ -86,4 +86,5 @@ export default function SpeakerDetails(props) {
             </Modal>
         </div>
     );
+    
 }
