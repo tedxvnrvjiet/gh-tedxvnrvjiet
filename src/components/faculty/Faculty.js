@@ -41,7 +41,7 @@ function Faculty() {
     },
     {
       url:Priyanka,
-      name:"Dr. V. Priyanka Bradmaiah",
+      name:"Dr. Priyanka Veeramosu",
       post:" Assistant Professor, ECE",
       linkedin:"",
       instagram:""
