@@ -1,78 +1,56 @@
-import React, { useState } from 'react';
-import Countdown from 'react-countdown';
-import styled from "styled-components";
-import './Timer.css'
+import React, { useState, useEffect } from 'react';
+import './Timer.css'; // Import the external CSS file for styling
 
-const Timer = () => {
+function Timer() {
+  const calculateTimeLeft = () => {
+    const eventDate = new Date("October 28, 2024 00:00:00"); // Set your event date here
+    const currentTime = new Date();
+    const difference = eventDate - currentTime;
 
-    const CountdownWrapper = styled.div`
-    display: flex;
-    justify-content: center;
-    /* background-color: rgb(0, 0, 0, 0.5); */
-    `;
+    let timeLeft = {};
 
-
-    const TimerBox = styled.div`
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0 10px;
-    background
-    `;
-
-    const Number = styled.div`
-    font-size: 50px;
-    @media (max-width: 768px) {
-        font-size: 30px;   
+    if (difference > 0) {
+      timeLeft = {
+        days: Math.floor(difference / (1000 * 60 * 60 * 24)),
+        hours: Math.floor((difference / (1000 * 60 * 60)) % 24),
+        minutes: Math.floor((difference / 1000 / 60) % 60),
+        seconds: Math.floor((difference / 1000) % 60),
+      };
     }
-    font-weight: bold;
-    color: white;
-    `;
 
-    const Label = styled.div`
-    font-size: 20px;
-    @media (max-width: 768px) {
-        font-size: 10px;
+    return timeLeft;
+  };
+
+  const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setTimeLeft(calculateTimeLeft());
+    }, 1000);
+
+    return () => clearTimeout(timer);
+  });
+
+  const timerComponents = [];
+
+  Object.keys(timeLeft).forEach((interval) => {
+    if (!timeLeft[interval]) {
+      return;
     }
-    color: white;
-    `;
 
-    const [time] = useState(new Date('2023-05-02'));
+    timerComponents.push(
+      <div className="time-box" key={interval}>
+        <div className="time-value">{timeLeft[interval]}</div>
+        <div className="time-label">{interval}</div>
+      </div>
+    );
+  });
 
-    const renderer = ({ days, hours, minutes, seconds, completed }) => {
-        if (completed) {
-            return <div className='text-5xl mt-10'></div>;
-        } 
-        else {
-            return (
-                <div className='tclass'>
-                    <h1 className="text-red-600 font-bold">
-                        Live in
-                    </h1>
-                    <CountdownWrapper className='mb-5'>
-                        <TimerBox>
-                            <Number>{days}</Number>
-                            <Label>Days</Label>
-                        </TimerBox>
-                        <TimerBox>
-                            <Number>{hours}</Number>
-                            <Label>Hours</Label>
-                        </TimerBox>
-                        <TimerBox>
-                            <Number>{minutes}</Number>
-                            <Label>Minutes</Label>
-                        </TimerBox>
-                        <TimerBox>
-                            <Number>{seconds}</Number>
-                            <Label>Seconds</Label>
-                        </TimerBox>
-                    </CountdownWrapper>
-                </div>
-            );
-        }
-    };
-
-    return <Countdown date={time} renderer={renderer} />;
-};
+  return (
+    <div className="timer-container">
+      {timerComponents.length ? timerComponents : <span>Time's up!</span>}
+    </div>
+  );
+}
 
 export default Timer;
