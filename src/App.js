@@ -11,6 +11,7 @@ import Team2K24 from './components/Team2K24/Team2K24.js'
 import Sponsors from './components/sponsors/Sponsors'
 import ContactUs from './components/contactUs/ContactUs.js'
 import Home from './components/home/Home';
+import Faculty from './components/faculty/Faculty.js';
 import Archives from './components/pasteditions/Archives'
 import Register from './components/register/Register';
 import background from '../src/components/images/background.jpg'
@@ -43,6 +44,7 @@ function App() {
           <Route path='/sponsors' element={<Sponsors />} />
           <Route path='/contact-us' element={<ContactUs />} />
           <Route path='/register' element={<Register />} />
+          <Route path='/faculty' element={<Faculty />} />
           <Route path='/terms-and-conditions' element={<TermsAndConditions />} />
           <Route path='/privacy-policy' element={<PrivacyPolicy />} />
           <Route path='/refund-and-shipping' element={<RefundAndShipping />} />
