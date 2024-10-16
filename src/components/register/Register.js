@@ -3,6 +3,7 @@ import React from "react";
 import QR_2024 from "../../assets/tickets/QR_2024.jpeg";
 import Vanita from "../../assets/speakers24/Vanita.png"
 import Reddy from "../../assets/speakers24/Reddy.jpg"
+import Shrenik from '../../assets/speakers24/Shrenik.JPG'
 
 function Register() {
   // Speakers array
@@ -16,6 +17,11 @@ function Register() {
       name: 'Ms Vanitha Datla',
       designation: 'Vice Chairperson and Managing Director of Elico Ltd',
       image: Vanita,
+  },
+  {
+    name: 'Mr Shrenik Shah',
+    designation: 'Patient Ambassador, Indian Cancer Society, Global Ca-Larynx Speaker, Cancer survivor',
+    image: Shrenik,
   }
   ];
 
