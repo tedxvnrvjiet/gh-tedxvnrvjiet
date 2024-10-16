@@ -13,11 +13,11 @@ const SpeakersInfo = [
         facebook: ``
     },
     {
-        name: 'Vanita',
-        designation: '',
+        name: 'Ms Vanitha Datla',
+        designation: 'Vice Chairperson and Managing Director of Elico Ltd',
         image: Vanita,
-        description: 'Aditi Sharma is the winner of the Mrs. Universe India and Mrs. Universe Photogenic titles in 2022. She is a mother, homemaker, educator, and strong woman who inspires others through her social media platform. Aditi promotes the message that anything is possible if you work towards your dreams.',
-        instagram: 'https://www.instagram.com/aditi.mrsuniverseindia/?igshid=YmMyMTA2M2Y%3D'
+        description: 'Ms Vanitha Datla, Vice Chairperson and Managing Director of Elico Ltd as well as Elico Healthcare Services Ltd, will be speaking at TEDˣ VNRVJIET 2024. With nearly three decades of experience across industries like Financial Services, Instrumentation, and Healthcare, Vanitha brings a wealth of knowledge and insight. Her work focusing on women in business and finance, including her past experience at Confederation of Indian Industry (CII) as its Chairperson, has led her to found Divershefy, a startup focused to create gender diversity in the Boards and Leadership teams. As a champion of diversity and women empowerment, Vanitha has led initiatives to enhance corporate inclusion and supports education for underprivileged children.',
+        instagram: ''
     }
     
 ]

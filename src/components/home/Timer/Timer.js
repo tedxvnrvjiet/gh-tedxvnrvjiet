@@ -34,13 +34,9 @@ function Timer() {
   const timerComponents = [];
 
   Object.keys(timeLeft).forEach((interval) => {
-    if (!timeLeft[interval]) {
-      return;
-    }
-
     timerComponents.push(
       <div className="time-box" key={interval}>
-        <div className="time-value">{timeLeft[interval]}</div>
+        <div className="time-value">{timeLeft[interval] < 10 ? `0${timeLeft[interval]}` : timeLeft[interval]}</div>
         <div className="time-label">{interval}</div>
       </div>
     );
