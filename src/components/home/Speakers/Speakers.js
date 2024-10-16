@@ -2,6 +2,7 @@ import React from 'react'
 import SpeakerDetails from './SpeakerDetails'
 import Vanita from '../../../assets/speakers24/Vanita.png'
 import Reddy from '../../../assets/speakers24/Reddy.jpg'
+import Shrenik from '../../../assets/speakers24/Shrenik.JPG'
 
 const SpeakersInfo = [
         
@@ -17,6 +18,13 @@ const SpeakersInfo = [
         designation: 'Vice Chairperson and Managing Director of Elico Ltd',
         image: Vanita,
         description: 'Ms Vanitha Datla, Vice Chairperson and Managing Director of Elico Ltd as well as Elico Healthcare Services Ltd, will be speaking at TEDˣ VNRVJIET 2024. With nearly three decades of experience across industries like Financial Services, Instrumentation, and Healthcare, Vanitha brings a wealth of knowledge and insight. Her work focusing on women in business and finance, including her past experience at Confederation of Indian Industry (CII) as its Chairperson, has led her to found Divershefy, a startup focused to create gender diversity in the Boards and Leadership teams. As a champion of diversity and women empowerment, Vanitha has led initiatives to enhance corporate inclusion and supports education for underprivileged children.',
+        instagram: ''
+    },
+    {
+        name: 'Mr Shrenik Shah',
+        designation: 'Patient Ambassador, Indian Cancer Society, Global Ca-Larynx Speaker, Cancer survivor',
+        image: Shrenik,
+        description: ' Mr. Shrenik Shah, Patient Ambassador for the Indian Cancer Society, who will share his inspiring journey as a cancer survivor and motivational speaker. After a 26-year battle with cancer, he transformed his struggles into a powerful message of hope, delivering over 8,000 hours of talks that have touched more than 100,000 lives worldwide.',
         instagram: ''
     }
     
