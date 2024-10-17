@@ -2,7 +2,7 @@ import React from 'react'
 import FacultyMems from './FacultyMems.js'
 
 import Principal from '../../assets/faculty/Principal.png'
-import Padmasai from '../../assets/faculty/Padmasai.png'
+import Padmasai from '../../assets/faculty/Padmasai.jpeg'
 import Director from '../../assets/faculty/Director.png'
 import Priyanka from '../../assets/faculty/Priyanka.png'
 import Amjad from '../../assets/faculty/Amjad.png'
