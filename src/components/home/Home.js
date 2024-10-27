@@ -5,7 +5,7 @@ import Timer from './Timer/Timer';
 // import Theme from './Theme/Theme';
 import Speakers from './Speakers/Speakers';
 // import Fade from 'react-reveal/Fade';
-// import Timeline from './Timeline/Timeline';
+import Timeline from './Timeline/Timeline';
 import bgvideo from './Videos/bgvideo.mp4'; 
 import bgImage from '../../assets/ButterfliesDark.png'
 
@@ -70,8 +70,10 @@ function Home() {
   <div style={{ marginTop: '0px', padding: '0px' }}> 
     <Speakers />
   </div>
+  <div>
+    <Timeline />
+  </div>
 </div>
-
   );
 }
 
