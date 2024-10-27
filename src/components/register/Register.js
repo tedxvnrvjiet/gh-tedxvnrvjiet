@@ -6,7 +6,12 @@ import Shrenik from '../../assets/speakers24/Shrenik.JPG';
 import Neehar from '../../assets/speakers24/Neehar.png';
 import Noorul from '../../assets/speakers24/Noorul.png';
 import Jatin from '../../assets/speakers24/Jatin.jpg';
-import Hidden from '../../assets/speakers24/Hidden.png';
+import Durga from '../../assets/speakers24/Durga Prasad Kode.png'
+import Sunith from '../../assets/speakers24/Sunith Reddy.png'
+import Srinivos from '../../assets/speakers24/Mimicry Srinivos.jpg'
+import Sravya from '../../assets/speakers24/Sravya Manasa.jpeg'
+import Srinath from '../../assets/speakers24/Srinath Maganti.png'
+import Harish from '../../assets/speakers24/Harish Uthaman.jpg'
 
 function Register() {
   const speakers = [
@@ -16,8 +21,12 @@ function Register() {
     { name: 'Mr. Neehar Bisabathini', designation: 'Founder of Churrolto', image: Neehar },
     { name: 'Ms. Noorul Zain', designation: "Telangana's first UNICEF Youth Delegate", image: Noorul },
     { name: 'Mr. Jatin Wahane', designation: 'Young Rocket Scientist', image: Jatin },
-    { name: 'Mystery Guest', designation: 'Hidden', image: Hidden },
-    { name: 'Mystery Guest', designation: 'Hidden', image: Hidden }
+    { name: 'Mr. Sunith Reddy', designation: 'Visionary Entrepreneur and Techie', image: Sunith },
+    { name: 'Mr. Durga Prasad Kode', designation: 'Retired IPS officer', image: Durga },
+    { name: 'Mimicry Srinivos', designation: 'Pioneer in Mimicry and Ventriloquism', image: Srinivos },  
+    { name: 'Ms. Sravya Manasa', designation: 'Accomplished Kuchipudi Dancer', image: Sravya }, 
+    { name: 'Mr. Srinath Maganti', designation: 'Accomplished Actor and Entrepreneur', image: Srinath  }, 
+    { name: 'Mr. Harish Uthaman', designation: 'Accomplished Actor', image: Harish }
   ];
 
   return (

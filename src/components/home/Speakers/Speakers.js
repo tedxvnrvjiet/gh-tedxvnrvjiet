@@ -6,7 +6,12 @@ import Shrenik from '../../../assets/speakers24/Shrenik.JPG'
 import Neehar from '../../../assets/speakers24/Neehar.png'
 import Noorul from '../../../assets/speakers24/Noorul.png'
 import Jatin from '../../../assets/speakers24/Jatin.jpg'
-import Hidden from'../../../assets/speakers24/Hidden.png'
+import Durga from '../../../assets/speakers24/Durga Prasad Kode.png'
+import Sunith from '../../../assets/speakers24/Sunith Reddy.png'
+import Srinivos from '../../../assets/speakers24/Mimicry Srinivos.jpg'
+import Sravya from '../../../assets/speakers24/Sravya Manasa.jpeg'
+import Srinath from '../../../assets/speakers24/Srinath Maganti.png'
+import Harish from '../../../assets/speakers24/Harish Uthaman.jpg'
 const SpeakersInfo = [
         
     {
@@ -52,20 +57,47 @@ const SpeakersInfo = [
         instagram: ''
     },
     {
-        name: 'Mystery Guest',
-        designation: 'Guess the awesome mystery guest',
-        image: Hidden,
-        description: "",
+        name: 'Mr. Sunith Reddy',
+        designation: 'Visionary Entrepreneur and Techie',
+        image: Sunith,
+        description: "Mr. Sunith Reddy is a visionary entrepreneur and techie. Sunith’s career started at Yahoo! where he built Y! Alerts, a platform that served over 20 crore users. Since then, he has expanded into diverse ventures, including high-frequency trading, sustainable tourism, and agriculture. Currently, he’s leading the way in sustainable living by building India’s first permaculture-based collective farm through Beforest Lifestyle Solutions, in a successful marriage of sustainable development and urban mindset.Join us for an inspiring session where Sunith shares his impactful journey of innovation, problem-solving, and value-driven entrepreneurship!",
         instagram: ''
     },
     {
-        name: 'Mystery Guest',
-        designation: 'Guess the awesome mystery guess',
-        image: Hidden,
-        description: "",
+        name: 'Mr. Durga Prasad Kode',
+        designation: 'Retired IPS officer',
+        image: Durga,
+        description: "Mr. Durga Prasad Kode, a distinguished retired IPS officer with an illustrious career marked by leadership donning some most critical roles pertaining to law enforcement. He has served as the Head of the Special Protection Group (SPG), Head of the CRPF (as the only Telugu officer to hold this role), Additional DGP of Andhra Pradesh, and more. His contributions to national security as well as law and order have had a profound and lasting impact on India’s law enforcement landscape. Currently, Mr. Kode continues to share his wealth of knowledge and leadership skills through mentoring the next generation of public service officials, corporate leaders, and educators, and administrators. His unique journey of resilience, strategic foresight, and a lifelong commitment to public safety continues to inspire countless individuals across industries.",
         instagram: ''
-    }
-    
+    },
+    {
+        name: 'Mimicry Srinivos',
+        designation: 'Pioneer in Mimicry and Ventriloquism',
+        image: Srinivos,
+        description: "The legendary Mimicry Srinivos is India’s pioneer in mimicry and ventriloquism. With over four decades of experience and a world record-setting 32-hour mimicry show, Srinivos has captivated audiences across the globe with his unique blend of humor, sound illusions, and unmatched vocal impressions. His performance promises to be a thrilling experience as he brings characters to life, sharing the magic of mimicry like never before! Don’t miss this extraordinary artist who has redefined the art of voice and sound, through mimicry and ventriloquism.",
+        instagram: ''
+    },  
+    {
+        name: 'Ms. Sravya Manasa',
+        designation: 'Accomplished Kuchipudi Dancer',
+        image: Sravya,
+        description: "Ms. Sravya Manasa is an accomplished Kuchipudi dancer and a dubbing artist who will be gracing the TEDX VNRVJIET stage! Founder of Sumadhura Arts Academy and IRA Space for Performing Arts, Sravya has inspired countless students and audiences around the world with her powerful storytelling and dynamic artistry. From engineering to excelling in Kuchipudi, Sravya Manasa proves it’s never too late to follow your passion. Now pursuing a PhD in Kuchipudi , she inspires by building bridges between knowledge and art as an mentor for many aspiring dancers.",
+        instagram: ''
+    }, 
+    {
+        name: 'Mr. Srinath Maganti',
+        designation: 'Accomplished Actor and Entrepreneur',
+        image: Srinath,
+        description: "Mr. Srinath Maganti is an accomplished actor and entrepreneur. Srinath has left his mark on the Telugu film industry with standout performances in HIT series and Animal, while also managing successful ventures. From Hyderabad to the big screen, his story is one of ambition, perseverance, and breaking boundaries.Join us as Srinath shares his journey from business to film, and the lessons he has learned along the way. This is your chance to hear the untold story behind his rise!",
+        instagram: ''
+    }, 
+    {
+        name: 'Mr. Harish Uthaman',
+        designation: 'Accomplished Actor',
+        image: Harish,
+        description: "Mr. Harish Uthaman is a dynamic force in the Telugu and Tamil film industries known for his powerful roles and captivating screen presence. From his unforgettable performances in the Srimanthudu, Jai Lava Kusa, Krishna Gadi Veera Prema Gaadha, LCU(Kaithi, Vikram, Rolex) series to his much-anticipated appearance in They Call Him OG, Harish has been a true game-changer, bringing depth to every character he portrays.At TEDxVNRVJIET 2024, Harish will share his journey through the highs and lows of the film industry, offering insights into his craft, the importance of versatility, and the art of storytelling. This is an experience you won’t want to miss!",
+        instagram: ''
+    }, 
 ]
 
 function Speakers() {
