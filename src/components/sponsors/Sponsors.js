@@ -1,17 +1,27 @@
-import React from 'react'
-import soon from '../../assets/soon.png'
-import './Sponsors.css'
+import React from 'react';
+import avyukthaImage from '../../assets/Avyuktha.jpg';
+import './Sponsors.css';
 
 function Sponsors() {
   return (
-    <div>
-        <div className='sponsors'>
-            {/* <hr className='border-0 h-1 rounded w-1/6 ml-5 bg-red-700'/> */}
-            {/* <h1 id="heading" className=' text-white font-semibold font-serif italic  my-44 text-center text-6xl'>Will be uploaded soon!</h1> */}
-            <img src={soon} alt="" />
+    <div className="bg-black pt-10 pb-10">
+      <div className="sponsors-title">
+        <h1 className='text-center text-5xl text-red-600 font-bold sponsors-title-text'>
+          <span style={{ color: "white" }}>OUR</span> <span>PARTNERS</span>
+        </h1>
+      </div>
+      <div className="flex flex-wrap justify-center p-4 px-20">
+        <div className="gifting-partner">
+          <h2 className="gifting-title">Gifting Partner</h2>
+          <div className="partner-item">
+            <img src={avyukthaImage} alt="Avyuktha" className="partner-logo" />
+            <p className="partner-name">Avyuktha</p>
+          </div>
         </div>
+      </div>
+      <hr className="border-1 border-gray-600 mx-40" />
     </div>
-  )
+  );
 }
 
-export default Sponsors
+export default Sponsors;
