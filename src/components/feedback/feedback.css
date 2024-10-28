@@ -28,3 +28,18 @@
     border: none;
   }
   
+  @media (max-width: 768px) {
+    .feedback-form-container {
+        padding: 40px 10px; 
+        height: auto; 
+        max-width: 90%; 
+    }
+
+    .feedback-form-container h2 {
+        font-size: 1.5rem; 
+    }
+
+    #feedback-form-iframe {
+        height: 70vh; 
+    }
+}
