@@ -18,6 +18,7 @@ import background from '../src/components/images/background.jpg'
 import TermsAndConditions from './components/compliances/TermsAndConditions.js';
 import PrivacyPolicy from './components/compliances/PrivacyPolicy.js';
 import RefundAndShipping from './components/compliances/RefundAndShipping.js';
+import Feedback from './components/feedback/feedback.js'
 
 function App() {
 
@@ -45,6 +46,7 @@ function App() {
           <Route path='/contact-us' element={<ContactUs />} />
           <Route path='/register' element={<Register />} />
           <Route path='/faculty' element={<Faculty />} />
+          <Route path='/feedback' element={<Feedback/>}/>
           <Route path='/terms-and-conditions' element={<TermsAndConditions />} />
           <Route path='/privacy-policy' element={<PrivacyPolicy />} />
           <Route path='/refund-and-shipping' element={<RefundAndShipping />} />

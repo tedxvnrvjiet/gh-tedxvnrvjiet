@@ -8,6 +8,7 @@ import Sponsors from '../sponsors/Sponsors'
 import Faculty from '../faculty/Faculty'
 import ContactUs from '../contactUs/ContactUs'
 import Archives from '../pasteditions/Archives'
+import Feedback from '../feedback/feedback'
 import { Route, Routes} from 'react-router-dom'
 import logo from '../../assets/logos/logo-white.png'
 
@@ -19,6 +20,7 @@ const navigation = [
   { name: 'Sponsors', href: '/sponsors', current: false },
   { name: 'Faculty', href: '/faculty', current: false },
   { name: 'Contact Us', href: '/contact-us', current: false },
+  { name: 'Feedback', href: '/feedback', current: false },
 
 ]
 
@@ -107,6 +109,7 @@ function Navbar() {
             <Route path='/sponsors' element={<Sponsors />} />
             <Route path='/faculty' element={<Faculty />} />
             <Route path='/contact-us' element={<ContactUs />} />
+            <Route path='/feedback' element={<Feedback />} />
         </Routes>
     </div>
   )

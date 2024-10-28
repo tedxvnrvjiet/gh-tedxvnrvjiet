@@ -68,6 +68,9 @@ function Nav() {
                                 <a href="/register" className="linkk">
                                     <div className="menu-link">Tickets <TicketsLogo1 className='-ml-0.5' /></div>
                                 </a>
+                                <a href='/feedback' className="linkk">
+                                    <div className="menu-link">Feedback</div>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -95,6 +98,9 @@ function Nav() {
                             <a href="/register" className="link">
                                 Tickets 
                                 <TicketsLogo1 />
+                            </a>
+                            <a href="/feedback" className="link">
+                                Feedback
                             </a>
                     </div>
                 )}
