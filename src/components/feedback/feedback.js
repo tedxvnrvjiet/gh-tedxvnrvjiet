@@ -7,7 +7,7 @@ const Feedback = () => {
       <h2>We'd Love Your Feedback</h2>
       <iframe
         id="feedback-form-iframe"
-        src="https://forms.gle/hfGTYpw3ki4sC8Vu5"
+        src="https://forms.gle/fJcn8QcFhHqSxfjc7"
         width="100%"
         height="1600"
         style={{ border: "none" }}
